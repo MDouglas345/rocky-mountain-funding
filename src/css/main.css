@@ -1,0 +1,17 @@
+#navbar-brand-logo-cont {
+  width: 200px;
+  height: 50px;
+}
+
+#navbar-brand-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+#navbar > a {
+  font-weight: normal;
+}
+
+.mega-menu {
+  position: static;
+}
