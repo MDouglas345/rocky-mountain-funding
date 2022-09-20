@@ -1,113 +1,56 @@
 <template>
-  <div class="container">
-    <nav
-      class="navbar col-lg-10 col-md-12 col-sm-12 mx-auto navbar-expand-lg navbar-light bg-light"
-    >
-      <div class="container-fluid">
-        <div id="navbar-brand-logo-cont">
-          <router-link to="/" class="navbar-brand" href="#">
-            <img id="navbar-brand-logo" src="@/assets/rml-med.png" />
-          </router-link>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link
-                to="/"
-                class="nav-link active"
-                aria-current="page"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                href="#"
-                >Home</router-link
-              >
-            </li>
-            <li class="nav-item dropdown mega-menu">
-              <router-link
-                to="/solutions"
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >Solutions</router-link
-              >
-
-              <ul
-                class="container-fluid dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
-                <div class="row">
-                  <li>
-                    <a class="dropdown-item" href="#">Merchant Cash Advance</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Line of Credit</a>
-                  </li>
+  <nav class="navbar navbar-expand-sm bg-light">
+    <div class="container-fluid">
+      <div class="row outline2">
+        <div class="col-md-8 mx-auto outline">
+          <div class="row">
+            <div class="col-sm-3 outline">
+              <div class="row">
+                <div class="col-sm-auto col-xs-4">
+                  <img
+                    class="navbar-brand"
+                    id="navbar-brand-logo"
+                    src="@/assets/rml-med.png"
+                  />
                 </div>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+                <div class="col-xs-2">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-9 outline">
+              <div class="row">
+                <div class="col-12 outline">
+                  <NavigationBarContent></NavigationBarContent>
+                </div>
+                <div class="col-12 outline">column</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>
+import $ from "jquery";
+import NavigationBarContent from "@/components/NavigationBarContent.vue";
+
 export default {
   name: "NavigationBar",
+  components: {
+    NavigationBarContent,
+  },
 };
 </script>

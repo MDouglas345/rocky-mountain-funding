@@ -8,6 +8,21 @@
   height: auto;
 }
 
+.outline {
+  border: solid red;
+  border-width: 2px;
+}
+
+.outline2 {
+  border: solid blue;
+  border-width: 1px;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #navbar > a {
   font-weight: normal;
 }
