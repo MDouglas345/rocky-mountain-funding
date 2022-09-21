@@ -1,32 +1,26 @@
 <template>
-  <ul class="col-xs-6 dropdown-menu" aria-labelledby="navbarDropdown">
-    <div class="row">
-      <div class="col">
-        <li>
-          <a class="dropdown-item" href="#">Merchant Cash Advance</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Line of Credit</a>
-        </li>
-      </div>
-      <div class="col">
-        <li>
-          <a class="dropdown-item" href="#">Merchant Cash Advance1</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Line of Credit</a>
-        </li>
-      </div>
-      <div class="col">
-        <li>
-          <a class="dropdown-item" href="#">Merchant Cash Advance2</a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="#">Line of Credit</a>
-        </li>
+  <div
+    id="navbar-drodown-container"
+    class="dropdown-menu mt-0 col-sm-12"
+    aria-labelledby="navbarDropdown"
+    style="border-top-left-radius: 0; border-top-right-radius: 0"
+  >
+    <div class="row w-100 h-100">
+      <div class="col-sm-12 outline2 mx-auto">
+        <div class="row">
+          <div class="col-sm-4">
+            <router-link to="" class="dropdown-item">Do</router-link>
+          </div>
+          <div class="col-sm-4">
+            <router-link to="" class="dropdown-item">Do</router-link>
+          </div>
+          <div class="col-sm-4">
+            <router-link to="" class="dropdown-item">Do</router-link>
+          </div>
+        </div>
       </div>
     </div>
-  </ul>
+  </div>
 </template>
 
 <script>

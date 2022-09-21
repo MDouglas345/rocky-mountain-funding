@@ -49,7 +49,7 @@
 import NavigationDropDown from "./NavigationDropDown.vue";
 
 export default {
-  name: "NavigationBarContent",
+  name: "NavigationBarContentDynamic",
   props:{
     NavbarContent :{
       type : Object

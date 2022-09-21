@@ -1,14 +1,18 @@
 <template>
-  <NavigationBar></NavigationBar>
+  <NavigationBar :NavbarData="data.navbar"></NavigationBar>
   <router-view></router-view>
 </template>
 
 <script>
 import NavigationBar from "@/components/NavigationBar.vue";
+import sitedata from "@/data/site-data.json";
 export default {
   name: "App",
   components: {
     NavigationBar,
+  },
+  data() {
+    return { data: sitedata };
   },
 };
 </script>

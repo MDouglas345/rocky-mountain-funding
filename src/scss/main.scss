@@ -1,7 +1,34 @@
-$Primary: #861388;
+@import "../fonts/Palanquin-Thin.ttf";
+@import "../fonts/MerriweatherSans-Bold.ttf";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+$primary: #1b9fda;
+$secondary: white;
+$enable-caret: false;
+$font-family-base: "Palanguin-Thin", sans-serif;
+$headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.color-secondary {
+  color: $secondary;
+}
+
+.call-to-action {
+  font-size: xx-large;
+}
+
+.vertical-align-m {
+  vertical-align: middle;
+}
+
+#phone-container > button {
+  width: auto;
+}
+
+.color-primary {
+  color: $primary;
+}
 #navbar-brand-logo-cont {
   width: 200px;
   height: 50px;
@@ -9,7 +36,7 @@ $Primary: #861388;
 
 #navbar-top-content {
   padding: 0;
-  padding-top: 5px;
+  //padding-top: 5px;
 }
 
 .navbar {
@@ -29,18 +56,18 @@ $Primary: #861388;
 }
 
 .outline {
-  border: solid red;
+  //border: solid red;
   border-width: 2px;
 }
 
 .outline2 {
-  border: solid blue;
+  //border: solid blue;
   border-width: 1px;
 }
 
 .navbar {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 5px;
 }
 
 #navbar > a {
@@ -54,6 +81,13 @@ $Primary: #861388;
 #navbar-items-holder {
   //width: 100%;
   align-items: center;
+  padding-top: 5px;
+}
+
+#navbar-items-holder {
+  & {
+    vertical-align: bottom;
+  }
 }
 
 #navbar-items-holder > li {
@@ -62,4 +96,12 @@ $Primary: #861388;
 
 .navbar-toggler {
   margin-top: 10px;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: auto;
+  left: 40%;
+}
+#navbar-drodown-container {
+  width: 50%;
 }

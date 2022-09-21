@@ -1,5 +1,6 @@
 <template>
   <h1>Hello World!</h1>
+  <p>This should look nice and sexy</p>
 </template>
 
 <script>

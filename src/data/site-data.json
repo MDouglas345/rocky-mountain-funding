@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "logo": {
+      "url": "rml-med.png",
+      "to":"/"
+    },
+    "items": [
+      {
+        "name": "Home",
+        "url": "/",
+        "default": true,
+        "menu": []
+      },
+      {
+        "name": "Solutions",
+        "url": "/solutions",
+        "default": false,
+        "menu": [
+          [
+            {
+              "name": "Merchant Cash Advance",
+              "to": "/merchant-cash-advance"
+            },
+            {
+              "name": "Line of Credit",
+              "to": "/line-of-credit"
+            },
+            {
+              "name": "Equipment Financing",
+              "to": "/equipment-financing"
+            },
+            {
+              "name": "Mortgage Financing",
+              "to": "/mortgage-financing"
+            }
+          ],
+          [
+            {
+              "name": "Term Loan",
+              "to": "/term-loan"
+            },
+            {
+              "name": "Factoring",
+              "to": "/factoring"
+            },
+            {
+              "name": "P.O Financing",
+              "to": "/po-financing"
+            },
+            {
+              "name": "Credit Servicing",
+              "to": "/credit-servicing"
+            }
+          ],
+          [
+            {
+              "name": "Credit Card Processing",
+              "to": "/credit-card-processing"
+            },
+            {
+              "name": "HR/Payroll",
+              "to": "/hr-payroll"
+            },
+            {
+              "name": "SEO",
+              "to": "/seo"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "Apply Now",
+        "url": "/applynow",
+        "default": false,
+        "menu": []
+      },
+      {
+        "name": "ERC",
+        "url": "/erc",
+        "default": false,
+        "menu": []
+      },
+      {
+        "name": "Credit Portal",
+        "url": "/creditportal",
+        "default": false,
+        "menu": []
+      }
+    ]
+  },
+  "pages": [],
+  "footer": {}
+}

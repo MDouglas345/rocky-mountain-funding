@@ -2,16 +2,19 @@
   <nav class="navbar navbar-expand-sm bg-light">
     <div class="container-fluid">
       <div class="row outline2">
-        <div class="col-md-9 mx-auto outline">
+        <div class="col-lg-9 col-md-12 mx-auto outline">
           <div class="row">
             <div class="col-sm-3 mx-0 outline">
               <div class="row">
                 <div id="navbar-logo-container mx-0" class="col-sm-auto col-10">
-                  <img
-                    class="navbar-brand m-0"
-                    id="navbar-brand-logo"
-                    src="@/assets/rml-med.png"
-                  />
+                  <router-link :to="NavbarData.logo.to">
+                    <img
+                      class="navbar-brand m-0"
+                      id="navbar-brand-logo"
+                      v-bind:src="require(`@/assets/${NavbarData.logo.url}`)"
+
+                    />
+                  </router-link>
                 </div>
                 <div class="col-2">
                   <button
@@ -31,11 +34,10 @@
             <div class="col-sm-9 outline">
               <div class="row">
                 <div id="navbar-top-content" class="col-12 outline">
-                  <NavigationBarContent></NavigationBarContent>
+                  <NavigationBarContentDynamic :NavbarContent="NavbarData.items"></NavigationBarContentDynamic>
                 </div>
-                <div id="navbar-bottom-content" class="col-12 outline">
-                  column
-                </div>
+                <div id="navbar-bottom-content" class="col-12 outline"></div>
+                <NavbarPhone></NavbarPhone>
               </div>
             </div>
           </div>
@@ -47,12 +49,20 @@
 
 <script>
 import $ from "jquery";
-import NavigationBarContent from "@/components/NavigationBarContent.vue";
+
+import NavbarPhone from "./NavbarPhone.vue";
+import NavigationBarContentDynamic from "./NavigationBarContentDynamic.vue";
 
 export default {
   name: "NavigationBar",
-  components: {
-    NavigationBarContent,
+  props: {
+    NavbarData: {
+      type: Object,
+    },
   },
+  components: {
+    NavbarPhone,
+    NavigationBarContentDynamic
+},
 };
 </script>
