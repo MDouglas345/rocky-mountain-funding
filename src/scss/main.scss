@@ -1,0 +1,65 @@
+$Primary: #861388;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+#navbar-brand-logo-cont {
+  width: 200px;
+  height: 50px;
+}
+
+#navbar-top-content {
+  padding: 0;
+  padding-top: 5px;
+}
+
+.navbar {
+  margin-top: 0;
+  padding: 0;
+}
+
+#navbar-brand-logo {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
+.navbar-logo-container {
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.outline {
+  border: solid red;
+  border-width: 2px;
+}
+
+.outline2 {
+  border: solid blue;
+  border-width: 1px;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#navbar > a {
+  font-weight: normal;
+}
+
+.mega-menu {
+  position: static;
+}
+
+#navbar-items-holder {
+  //width: 100%;
+  align-items: center;
+}
+
+#navbar-items-holder > li {
+  padding-right: 1.4vw;
+}
+
+.navbar-toggler {
+  margin-top: 10px;
+}

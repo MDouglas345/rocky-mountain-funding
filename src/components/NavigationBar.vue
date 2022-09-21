@@ -2,18 +2,18 @@
   <nav class="navbar navbar-expand-sm bg-light">
     <div class="container-fluid">
       <div class="row outline2">
-        <div class="col-md-8 mx-auto outline">
+        <div class="col-md-9 mx-auto outline">
           <div class="row">
-            <div class="col-sm-3 outline">
+            <div class="col-sm-3 mx-0 outline">
               <div class="row">
-                <div class="col-sm-auto col-xs-4">
+                <div id="navbar-logo-container mx-0" class="col-sm-auto col-10">
                   <img
-                    class="navbar-brand"
+                    class="navbar-brand m-0"
                     id="navbar-brand-logo"
                     src="@/assets/rml-med.png"
                   />
                 </div>
-                <div class="col-xs-2">
+                <div class="col-2">
                   <button
                     class="navbar-toggler"
                     type="button"
@@ -30,10 +30,12 @@
             </div>
             <div class="col-sm-9 outline">
               <div class="row">
-                <div class="col-12 outline">
+                <div id="navbar-top-content" class="col-12 outline">
                   <NavigationBarContent></NavigationBarContent>
                 </div>
-                <div class="col-12 outline">column</div>
+                <div id="navbar-bottom-content" class="col-12 outline">
+                  column
+                </div>
               </div>
             </div>
           </div>
