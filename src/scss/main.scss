@@ -24,6 +24,11 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
   color: $secondary;
 }
 
+.nav-link{
+  padding-right:0;
+  padding-left:0;
+}
+
 .call-to-action {
   font-size: xx-large;
 }
@@ -34,6 +39,16 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 #phone-container > button {
   width: auto;
+}
+
+#phone-container > button > a{
+  text-decoration: none;
+}
+
+#phone-container {
+  &{
+    padding: 0;
+  }
 }
 
 .color-primary {
@@ -81,9 +96,10 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 }
 
 #navbar-items-holder {
-  //width: 100%;
+  width: 100%;
   align-items: center;
   padding-top: 5px;
+  margin: 0;
 }
 
 #navbar-items-holder {
@@ -102,8 +118,13 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 .dropdown-menu[data-bs-popper] {
   top: auto;
-  left: 40%;
+  left: 33%;
 }
-#navbar-drodown-container {
-  width: 50%;
+#navbar-drodown-container{
+  text-align: center;
+  width:auto;
+  padding-left:8px;
+  padding-right:8px;
 }
+
+

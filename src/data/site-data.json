@@ -10,7 +10,7 @@
         "default": true,
         "menu": [],
         "tags" : {
-            "class" : "nav-item"
+            "class" : "nav-item col-sm"
           },
         "linktags":{
           "class" : "nav-link",
@@ -26,56 +26,78 @@
           [
             {
               "name": "Merchant Cash Advance",
-              "to": "/merchant-cash-advance"
+              "tag" :{
+                "to": "/merchant-cash-advance"
+              }
             },
             {
               "name": "Line of Credit",
-              "to": "/line-of-credit"
+              "tag" : {
+                "to": "/line-of-credit"
+              }
             },
             {
               "name": "Equipment Financing",
-              "to": "/equipment-financing"
+              "tag" : {
+                "to": "/equipment-financing"
+              }
             },
             {
               "name": "Mortgage Financing",
-              "to": "/mortgage-financing"
+              "tag" : {
+                "to": "/mortgage-financing"
+              }
             }
           ],
           [
             {
               "name": "Term Loan",
-              "to": "/term-loan"
+              "tag" : {
+                "to": "/term-loan"
+              }
             },
             {
               "name": "Factoring",
-              "to": "/factoring"
+              "tag" : {
+                "to": "/factoring"
+              }
             },
             {
               "name": "P.O Financing",
-              "to": "/po-financing"
+              "tag" : {
+                "to": "/po-financing"
+              }
             },
             {
               "name": "Credit Servicing",
-              "to": "/credit-servicing"
+              "tag" : {
+                "to": "/credit-servicing"
+              }
             }
           ],
           [
             {
               "name": "Credit Card Processing",
-              "to": "/credit-card-processing"
+              "tag" : {
+                "to": "/credit-card-processing"
+              }
             },
             {
               "name": "HR/Payroll",
-              "to": "/hr-payroll"
+              "tag" : {
+                "to": "/hr-payroll"
+              }
             },
             {
               "name": "SEO",
-              "to": "/seo"
+              "tag" : {
+                "to": "/seo"
+              }
             }
           ]
         ],
         "tags" : {
-          "class" : "nav-item dropdown position-static"
+          "class" : "nav-item dropdown position-static col-sm"
           
         },
         "linktags":{
@@ -94,7 +116,7 @@
         "default": false,
         "menu": [],
         "tags" : {
-            "class" : "nav-item"
+            "class" : "nav-item col-sm"
           },
         "linktags":{
           "to" : "/applynow",
@@ -107,7 +129,7 @@
         "default": false,
         "menu": [],
         "tags" : {
-            "class" : "nav-item"
+            "class" : "nav-item col-sm"
 
           },
         "linktags":{
@@ -121,7 +143,7 @@
         "default": false,
         "menu": [],
         "tags" : {
-          "class" : "nav-item"
+          "class" : "nav-item col-sm"
         },
         "linktags":{
           "to" : "/creditportal",
@@ -129,7 +151,11 @@
         },
         "columns" : 0
       }
-    ]
+    ],
+    "phone" : {
+      "display" : "Call Now: ",
+      "tel" : "646-933-8322"
+    }
   },
   "pages": [],
   "footer": {}

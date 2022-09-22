@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
       <div class="row outline2">
-        <div class="col-lg-9 col-md-12 mx-auto outline">
+        <div class="col-lg-8 col-md-12 mx-auto outline">
           <div class="row">
             <div class="col-md-3 mx-0 outline">
               <div class="row">
@@ -37,7 +37,7 @@
                   <NavigationBarContentDynamic :NavbarContent="NavbarData.items"></NavigationBarContentDynamic>
                 </div>
                 <div id="navbar-bottom-content" class="col-12 outline"></div>
-                <NavbarPhone></NavbarPhone>
+                <NavbarPhone :NavbarPhoneData = NavbarData.phone></NavbarPhone>
               </div>
             </div>
           </div>

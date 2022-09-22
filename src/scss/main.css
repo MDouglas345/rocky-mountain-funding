@@ -12430,8 +12430,20 @@ fieldset:disabled .btn {
   }
 }
 
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .color-secondary {
   color: white;
+}
+
+.nav-link {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .call-to-action {
@@ -12446,6 +12458,14 @@ fieldset:disabled .btn {
   width: auto;
 }
 
+#phone-container > button > a {
+  text-decoration: none;
+}
+
+#phone-container {
+  padding: 0;
+}
+
 .color-primary {
   color: #1b9fda;
 }
@@ -12456,11 +12476,6 @@ fieldset:disabled .btn {
 }
 
 #navbar-top-content {
-  padding: 0;
-}
-
-.navbar {
-  margin-top: 0;
   padding: 0;
 }
 
@@ -12483,11 +12498,6 @@ fieldset:disabled .btn {
   border-width: 1px;
 }
 
-.navbar {
-  padding-top: 0px;
-  padding-bottom: 5px;
-}
-
 #navbar > a {
   font-weight: normal;
 }
@@ -12497,10 +12507,12 @@ fieldset:disabled .btn {
 }
 
 #navbar-items-holder {
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 5px;
+  margin: 0;
 }
 
 #navbar-items-holder {
@@ -12517,10 +12529,13 @@ fieldset:disabled .btn {
 
 .dropdown-menu[data-bs-popper] {
   top: auto;
-  left: 40%;
+  left: 33%;
 }
 
 #navbar-drodown-container {
-  width: 50%;
+  text-align: center;
+  width: auto;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 /*# sourceMappingURL=main.css.map */
