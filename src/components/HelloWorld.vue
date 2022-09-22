@@ -1,6 +1,6 @@
 <template>
   <h1>Hello World!</h1>
-  <p>This should look nice and sexy</p>
+  <p>This is amazing, Vue JS is great</p>
 </template>
 
 <script>

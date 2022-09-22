@@ -4,49 +4,17 @@
       id="navbar-items-holder"
       class="navbar-nav me-auto mb-2 mb-lg-0 my-auto justify-content-center"
     >
-      <li class="nav-item">
-        <router-link to="/" class="nav-link active" aria-current="page" href="#"
-          >Home</router-link
-        >
-      </li>
-      <li class="nav-item dropdown position-static">
-        <router-link
-          to="/applynow"
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Solutions
-        </router-link>
-        <NavigationDropDown></NavigationDropDown>
-      </li>
-      <li class="nav-item">
-        <router-link to="/applynow" class="nav-link" href="#"
-          >Apply Now</router-link
-        >
-      </li>
-      <li class="nav-item">
-        <router-link to="/erc" class="nav-link" href="#">ERC</router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/resources" class="nav-link" href="#"
-          >Resources</router-link
-        >
-      </li>
-      <li class="nav-item">
-        <router-link to="/creditportal" class="nav-link" href="#"
-          >Credit Portal</router-link
-        >
-      </li>
+        <li v-for="(item,index) in NavbarContent" v-bind="item.tags">
+            <router-link v-bind:to=item.url v-bind=item.linktags>{{item.name}}</router-link>
+            <NavigationBarDropDownDynamic :NavbarDropdownContent=item></NavigationBarDropDownDynamic>
+        </li>
     </ul>
   </div>
 </template>
 
 <script>
 import NavigationDropDown from "./NavigationDropDown.vue";
+import NavigationBarDropDownDynamic from "./NavigationBarDropDownDynamic.vue";
 
 export default {
   name: "NavigationBarContentDynamic",
@@ -57,6 +25,7 @@ export default {
   },
   components: {
     NavigationDropDown,
-  },
+    NavigationBarDropDownDynamic
+},
 };
 </script>

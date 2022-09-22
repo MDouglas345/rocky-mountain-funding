@@ -8,7 +8,17 @@ $enable-caret: false;
 $font-family-base: "Palanguin-Thin", sans-serif;
 $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right:5px;
+  padding-left:5px;
+  
+}
 
 .color-secondary {
   color: $secondary;
@@ -39,11 +49,6 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
   //padding-top: 5px;
 }
 
-.navbar {
-  margin-top: 0;
-  padding: 0;
-}
-
 #navbar-brand-logo {
   max-width: 100%;
   height: auto;
@@ -65,10 +70,7 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
   border-width: 1px;
 }
 
-.navbar {
-  padding-top: 0px;
-  padding-bottom: 5px;
-}
+
 
 #navbar > a {
   font-weight: normal;

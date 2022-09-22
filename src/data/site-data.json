@@ -7,13 +7,20 @@
     "items": [
       {
         "name": "Home",
-        "url": "/",
         "default": true,
-        "menu": []
+        "menu": [],
+        "tags" : {
+            "class" : "nav-item"
+          },
+        "linktags":{
+          "class" : "nav-link",
+          "to" : "/"
+        },
+        "columns" : 0
       },
       {
         "name": "Solutions",
-        "url": "/solutions",
+        
         "default": false,
         "menu": [
           [
@@ -66,25 +73,61 @@
               "to": "/seo"
             }
           ]
-        ]
+        ],
+        "tags" : {
+          "class" : "nav-item dropdown position-static"
+          
+        },
+        "linktags":{
+          "to" : "/solutions",
+          "class" : "nav-link dropdown-toggle",
+          "href":"#",
+          "id":"navbarDropdown",
+          "role":"button",
+          "data-bs-toggle":"dropdown",
+          "aria-expanded":"false"
+        },
+        "columns" : 3
       },
       {
         "name": "Apply Now",
-        "url": "/applynow",
         "default": false,
-        "menu": []
+        "menu": [],
+        "tags" : {
+            "class" : "nav-item"
+          },
+        "linktags":{
+          "to" : "/applynow",
+          "class" : "nav-link"
+        },
+        "columns" : 0
       },
       {
         "name": "ERC",
-        "url": "/erc",
         "default": false,
-        "menu": []
+        "menu": [],
+        "tags" : {
+            "class" : "nav-item"
+
+          },
+        "linktags":{
+          "to" : "/erc",
+          "class" : "nav-link"
+        },
+        "columns" : 0
       },
       {
         "name": "Credit Portal",
-        "url": "/creditportal",
         "default": false,
-        "menu": []
+        "menu": [],
+        "tags" : {
+          "class" : "nav-item"
+        },
+        "linktags":{
+          "to" : "/creditportal",
+          "class" : "nav-link"
+        },
+        "columns" : 0
       }
     ]
   },

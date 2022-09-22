@@ -9,6 +9,7 @@
           >Home</router-link
         >
       </li>
+      
       <li class="nav-item dropdown position-static">
         <router-link
           to="/applynow"
