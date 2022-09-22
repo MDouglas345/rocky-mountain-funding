@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
       <div class="row outline2">
         <div class="col-lg-9 col-md-12 mx-auto outline">
           <div class="row">
-            <div class="col-sm-3 mx-0 outline">
+            <div class="col-md-3 mx-0 outline">
               <div class="row">
-                <div id="navbar-logo-container mx-0" class="col-sm-auto col-10">
+                <div id="navbar-logo-container mx-0" class="col-md-auto col-10">
                   <router-link :to="NavbarData.logo.to">
                     <img
                       class="navbar-brand m-0"
@@ -31,7 +31,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-9 outline">
+            <div class="col-md-9 outline">
               <div class="row">
                 <div id="navbar-top-content" class="col-12 outline">
                   <NavigationBarContentDynamic :NavbarContent="NavbarData.items"></NavigationBarContentDynamic>

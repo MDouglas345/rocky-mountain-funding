@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-end">
-    <div id="phone-container" class="col-sm-auto">
+    <div id="phone-container" class="col-md-auto">
       <button type="button w-100 call-to-action" class="btn btn-primary">
         <span
           ><p class="h6 color-secondary m-0">
