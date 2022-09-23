@@ -1,16 +1,20 @@
 <template>
   <NavigationBar :NavbarData="data.navbar"></NavigationBar>
   <router-view></router-view>
+  <FooterComponent :FooterData="data.footer"></FooterComponent>
+  
 </template>
 
 <script>
 import NavigationBar from "@/components/NavigationBar.vue";
 import sitedata from "@/data/site-data.json";
+import FooterComponent from "./components/footer/FooterComponent.vue";
 export default {
   name: "App",
   components: {
     NavigationBar,
-  },
+    FooterComponent
+},
   data() {
     return { data: sitedata };
   },

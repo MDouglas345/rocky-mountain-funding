@@ -158,5 +158,69 @@
     }
   },
   "pages": [],
-  "footer": {}
+  "footer": [
+    {
+      "cont_details" : {
+        "class" : "col-md-auto"
+      },
+      "header" : {
+        "type" : "img",
+        "type_details" : {
+            "src" :  "/img/rml-med.5b8ee114.png"
+        },
+        "content" : ""
+      },
+       "content" : [
+          {
+            "type" : "p",
+            "type_details" : {
+              "class" : ""
+            },
+            "content" : "Would you like a free, no strings attache consultation?<br>Call us today at <a href:\"tel:646-933-8322\"></a> or contact <a href:\"mailto:info@rockymountainfundinggroup.com\""
+          }
+        ]
+    },
+    {
+      "cont_details" : {
+        "class" : "col-md-auto"
+      },
+      "header" : {
+        "type" : "img",
+        "type-details" : {
+            "src" :  "rml-med.png"
+        },
+        "content" : [
+          
+        ]
+      }
+    },
+    {
+     "cont_details" : {
+        "class" : "col-md-auto"
+      },
+      "header" : {
+        "type" : "img",
+        "type-details" : {
+            "src" :  "rml-med.png"
+        },
+        "content" : [
+          
+        ]
+      }
+    },
+    {
+      "cont_details" : {
+        "class" : "col-md-auto"
+      },
+      "header" : {
+        "type" : "img",
+        "type-details" : {
+            "src" :  "rml-med.png"
+        },
+        "content" : [
+          
+        ]
+      }
+    }
+  ]
 }
