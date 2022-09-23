@@ -161,12 +161,13 @@
   "footer": [
     {
       "cont_details" : {
-        "class" : "col-md-auto"
+        "class" : " col-md col-sm-6 pb-3"
       },
       "header" : {
         "type" : "img",
         "type_details" : {
-            "src" :  "/img/rml-med.5b8ee114.png"
+            "src" :  "/img/rml-med.5b8ee114.png",
+            "class" : "image-fit"
         },
         "content" : ""
       },
@@ -176,51 +177,180 @@
             "type_details" : {
               "class" : ""
             },
-            "content" : "Would you like a free, no strings attache consultation?<br>Call us today at <a href:\"tel:646-933-8322\"></a> or contact <a href:\"mailto:info@rockymountainfundinggroup.com\""
+            "content" : "Would you like a free, no strings attached consultation?<br><br>Call us today at <a href=\"tel:646-933-8322\">646-933-8322</a>or contact <a href=\"mailto:info@rockymountainfundinggroup.com\">info@rockymountainfundinggroup.com</a><br><br>"
           }
         ]
     },
     {
       "cont_details" : {
-        "class" : "col-md-auto"
+        "class" : " col-md col-sm-6 pb-3"
       },
       "header" : {
-        "type" : "img",
+        "type" : "h6",
         "type-details" : {
-            "src" :  "rml-med.png"
+            
         },
-        "content" : [
-          
-        ]
-      }
+        "content" : "Premium Business Financing Services"
+      },
+      "content" : [
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/merchant-cash-advance"
+            },
+            "content" : "<p>Merchant Cash Advance</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/line-of-credit"
+            },
+            "content" : "<p>Line of Credit</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/equipment-financing"
+            },
+            "content" : "<p>Equipment Financing</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/mortgage-financing"
+            },
+            "content" : "<p>Mortgage Financing</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/term-loan"
+            },
+            "content" : "<p>Term Loan</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/factoring"
+            },
+            "content" : "<p>Factoring</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/po-financing"
+            },
+            "content" : "<p>P.O Financing</p>"
+          }
+      ]
     },
     {
      "cont_details" : {
-        "class" : "col-md-auto"
+        "class" : " col-md col-sm-6 pb-3"
       },
       "header" : {
-        "type" : "img",
+        "type" : "h6",
         "type-details" : {
-            "src" :  "rml-med.png"
+            
         },
-        "content" : [
+        "content" : "Custom Small Business Solutions"
+      },
+      "content" : [
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/credit-servicing"
+            },
+            "content" : "<p>Credit Servicing</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/hr-payroll"
+            },
+            "content" : "<p>HR/Payroll</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/credit-card-processing"
+            },
+            "content" : "<p>Credit Card Processing</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/seo"
+            },
+            "content" : "<p>SEO</p>"
+          }
           
         ]
-      }
     },
     {
       "cont_details" : {
-        "class" : "col-md-auto"
+        "class" : " col-md col-sm-6 pb-3"
       },
-      "header" : {
-        "type" : "img",
+     "header" : {
+        "type" : "h6",
         "type-details" : {
-            "src" :  "rml-med.png"
+            
         },
-        "content" : [
-          
+        "content" : "Rocky Mountain Funding Group"
+      },
+      "content" : [
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/about"
+            },
+            "content" : "<p>About</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/testimonials"
+            },
+            "content" : "<p>Testimonials</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/careers"
+            },
+            "content" : "<p>Careers</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/terms"
+            },
+            "content" : "<p>Terms & Conditions</p>"
+          },
+          {
+            "type" : "router-link",
+            "type_details" : {
+              "class" : "nav-link text-start",
+              "to" : "/contact-us"
+            },
+            "content" : "<p>Contact Us</p>"
+          }
         ]
-      }
     }
   ]
 }

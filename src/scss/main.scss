@@ -64,6 +64,12 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
   //padding-top: 5px;
 }
 
+.image-fit{
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
 #navbar-brand-logo {
   max-width: 100%;
   height: auto;
@@ -125,6 +131,14 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
   width:auto;
   padding-left:8px;
   padding-right:8px;
+}
+
+#footer-container{
+background-color: $secondary;
+}
+
+#navbar-container{
+  background-color: $secondary;
 }
 
 

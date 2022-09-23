@@ -1,13 +1,15 @@
 <template>
     
-    <div id = "footer-container" class = "container">
+    <div id = "footer-container" class = "container-fluid bg-white">
         
         <div class = "row">
-            <div class = "col-md-12">
+            <div class = "col-sm-12">
                 <div class = "row justify-content-around">
-                    <div v-for="(item,content) in FooterData" v-bind="item.cont_details">
+                    <div v-for="(item,index) in FooterData" v-bind="item.cont_details">
                         
-                        <component :is="item.header.type" v-bind="item.header.type_details">test</component>
+                        <component :is="item.header.type" v-bind="item.header.type_details">{{item.header.content}}</component>
+
+                        <component v-for="(entry,index) in item.content" :is="entry.type" v-bind="entry.type_details" v-html="entry.content"></component>
                         
                     </div>
                 </div>
@@ -35,7 +37,7 @@
    const data = defineProps({
         FooterData: Object,
     }) ;
-        
+
     console.log(data.FooterData);
 
     data.FooterData.forEach((column,index) => {

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md bg-light">
+  <nav id = "navbar container" class="navbar navbar-expand-md bg-white">
     <div class="container-fluid">
       <div class="row outline2">
         <div class="col-lg-8 col-md-12 mx-auto outline">
@@ -9,8 +9,8 @@
                 <div id="navbar-logo-container mx-0" class="col-md-auto col-10">
                   <router-link :to="NavbarData.logo.to">
                     <img
-                      class="navbar-brand m-0"
-                      id="navbar-brand-logo"
+                      class="navbar-brand m-0 image-fit"
+                      
                       v-bind:src="require(`@/assets/${NavbarData.logo.url}`)"
 
                     />
