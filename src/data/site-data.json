@@ -157,11 +157,82 @@
       "tel" : "646-933-8322"
     }
   },
-  "pages": [],
+  "pages": {
+    
+    "home" : {
+      "content" : [
+        {
+          "element" : "ImageShowCaser",
+          "element_details" :{
+            "slides" : [
+                {
+                  "class" : "img-fluid",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:576px)",
+                          "src" : "h-isc-1.webp"
+                        }
+                      ],
+                      "img" : "h-isc-1-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:576px)",
+                          "src" : "h-isc-2.webp"
+                        }
+                      ],
+                      "img" : "h-isc-2-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:576px)",
+                          "src" : "h-isc-3.webp"
+                        }
+                      ],
+                      "img" : "h-isc-3-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+
+                  }
+                  
+                }
+            ]
+          }
+        }
+       
+      ]
+    },
+    "applynow" : {
+      "content" : []
+           
+
+   }
+    
+  },
   "footer": [
     {
       "cont_details" : {
-        "class" : " col-md col-sm-6 pb-3"
+        "class" : " col-md col-sm-6 pb-3 text-start"
       },
       "header" : {
         "type" : "img",
@@ -183,12 +254,12 @@
     },
     {
       "cont_details" : {
-        "class" : " col-md col-sm-6 pb-3"
+        "class" : " col-md col-sm-6 pb-3 text-start"
       },
       "header" : {
         "type" : "h6",
-        "type-details" : {
-            
+        "type_details" : {
+            "class" : "text-primary"
         },
         "content" : "Premium Business Financing Services"
       },
@@ -253,12 +324,12 @@
     },
     {
      "cont_details" : {
-        "class" : " col-md col-sm-6 pb-3"
+        "class" : " col-md col-sm-6 pb-3 text-start"
       },
       "header" : {
         "type" : "h6",
-        "type-details" : {
-            
+        "type_details" : {
+            "class" : "text-primary"
         },
         "content" : "Custom Small Business Solutions"
       },
@@ -300,12 +371,12 @@
     },
     {
       "cont_details" : {
-        "class" : " col-md col-sm-6 pb-3"
+        "class" : " col-md col-sm-6 pb-3 text-start"
       },
      "header" : {
         "type" : "h6",
-        "type-details" : {
-            
+        "type_details" : {
+            "class" : "text-primary"
         },
         "content" : "Rocky Mountain Funding Group"
       },

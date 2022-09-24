@@ -12485,6 +12485,10 @@ fieldset:disabled .btn {
   margin-left: 0;
 }
 
+.image-fixed {
+  overflow: hidden;
+}
+
 #navbar-brand-logo {
   max-width: 100%;
   height: auto;

@@ -1,6 +1,6 @@
 <template>
-  <NavigationBar :NavbarData="data.navbar"></NavigationBar>
-  <router-view></router-view>
+  <NavigationBar :NavbarData="data[`navbar`]"></NavigationBar>
+  <router-view :siteData="data[`pages`]"></router-view>
   <FooterComponent :FooterData="data.footer"></FooterComponent>
   
 </template>

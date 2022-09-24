@@ -1,11 +1,15 @@
 <template>
   <h1>Hello World!</h1>
   <p>This is amazing, Vue JS is great</p>
+  
 </template>
 
 <script>
+import ImageShowCaser from './imageshowcaser/ImageShowCaser.vue';
+import CustomImg from './customimg/CustomImg.vue';
 export default {
-  name: "HelloWorld",
+    name: "HelloWorld",
+    components: { ImageShowCaser, CustomImg }
 };
 </script>
 

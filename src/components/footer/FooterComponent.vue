@@ -24,21 +24,12 @@
 
     const images = require.context('@/assets',true, /\.png$/);
 
-    
 
-    images.keys().forEach(item =>{
-        var t = item.replace(/.\//,"");
-        
-        console.log(t);
-
-        console.log(require('@/assets/'+t));
-    });
 
    const data = defineProps({
         FooterData: Object,
     }) ;
 
-    console.log(data.FooterData);
 
     data.FooterData.forEach((column,index) => {
         
