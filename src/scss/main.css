@@ -12487,6 +12487,20 @@ fieldset:disabled .btn {
 
 .image-fixed {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 2000px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.relative {
+  position: relative;
 }
 
 #navbar-brand-logo {
@@ -12553,7 +12567,38 @@ fieldset:disabled .btn {
   background-color: white;
 }
 
+.home-carousel-image-container {
+  height: 600px;
+  overflow: hidden;
+}
+
 #navbar-container {
   background-color: white;
+}
+
+.fade-enter-from {
+  opacity: 0.3;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.fade-leave-from {
+  opacity: 1;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-active {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 /*# sourceMappingURL=main.css.map */

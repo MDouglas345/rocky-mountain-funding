@@ -1,7 +1,7 @@
 <template>
   <nav id = "navbar container" class="navbar navbar-expand-md bg-white">
     <div class="container-fluid">
-      <div class="row outline2">
+      <div class="row outline2 mx-auto">
         <div class="col-lg-8 col-md-12 mx-auto outline">
           <div class="row">
             <div class="col-md-3 mx-0 outline">

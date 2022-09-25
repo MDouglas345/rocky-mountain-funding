@@ -1,11 +1,7 @@
 <template>
-    <Transition name="slide-in" duration="300">
-        <div class = "col-12">
-            
-                <CustomImg v-if="index===currentIndex" :imagedata="slide"></CustomImg>
-            
-        </div>
-    </Transition>
+    <transition name="fade">
+        <CustomImg  v-show="index===currentIndex" :imagedata="slide" :key="index"></CustomImg>
+    </transition>
 </template>
 
 
