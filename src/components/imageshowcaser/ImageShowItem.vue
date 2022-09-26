@@ -4,7 +4,7 @@
 
         <TransitionGroup name="fade">
             <CustomImg  v-show="index===currentIndex" :imagedata="slide" :key="index"></CustomImg>
-            <component  v-show="index===currentIndex && slide.OverlayContent.available===true" :is="slide.OverlayContent.type" :content="slide.OverlayContent.data"></component>
+            <component  v-show="index===currentIndex && slide.OverlayContent.available===true" :is="slide.OverlayContent.type" :content="slide.OverlayContent.data" :key="index"></component>
              
         </TransitionGroup>
     </div>

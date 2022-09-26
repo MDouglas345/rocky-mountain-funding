@@ -9,6 +9,7 @@
                         :slide="slideData"
                         :index="index"
                         :currentIndex="currentSlide"
+                        :key="index"
                     ></ImageShowItem>
                 
             </div>
@@ -46,7 +47,7 @@ export default {
         
     },
    mounted(){
-        this.timer = setInterval(this.incrementIndex, 100000);
+        this.timer = setInterval(this.incrementIndex, 10000);
         this.matchHeight();
    },
    beforeMount(){

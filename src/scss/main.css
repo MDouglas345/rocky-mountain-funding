@@ -12497,6 +12497,8 @@ fieldset:disabled .btn {
   top: 0;
   left: 0;
   bottom: 0;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
 .relative {
@@ -12586,7 +12588,7 @@ fieldset:disabled .btn {
 }
 
 .fade-enter-from {
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .fade-enter-to {
