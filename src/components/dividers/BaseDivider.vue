@@ -11,6 +11,7 @@
 
 <script>
     import TextCard from '../card/TextCard.vue';
+    import TextTitle from '../text/TextTitle.vue';
     export default{
         name : "BaseDivider",
         props : {
@@ -22,7 +23,7 @@
             }
         },
         components : {
-            TextCard
+            TextCard, TextTitle
         }   
     };
 </script>

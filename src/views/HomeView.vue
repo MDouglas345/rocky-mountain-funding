@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <component v-for="(item,index) in siteData.home.content" :is="item.element" v-bind="item.element_details"></component>
-    <BaseDivider></BaseDivider>
   </div>
 </template>
 

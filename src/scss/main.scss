@@ -210,10 +210,18 @@ background-color: $secondary;
   padding : 30px 30px;
 }
 
+.testimonial-text-overlay{
+  margin:0;
+}
+
 @include media-breakpoint-up(md){
   .home-card{
     padding : 5px 10px;
   }
+
+  .testimonial-text-overlay{
+  margin:10px;
+}
 }
 
 

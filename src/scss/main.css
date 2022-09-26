@@ -12622,9 +12622,16 @@ fieldset:disabled .btn {
   padding: 30px 30px;
 }
 
+.test-text-overlay {
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .home-card {
     padding: 5px 10px;
+  }
+  .test-text-overlay {
+    margin: 10px;
   }
 }
 
