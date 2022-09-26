@@ -12551,6 +12551,15 @@ fieldset:disabled .btn {
   margin-top: 10px;
 }
 
+.homeoverlay-text {
+  margin: 10px;
+}
+
+.nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .dropdown-menu[data-bs-popper] {
   top: auto;
   left: 33%;
@@ -12585,8 +12594,8 @@ fieldset:disabled .btn {
 }
 
 .fade-enter-active {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 
 .fade-leave-from {
@@ -12598,7 +12607,7 @@ fieldset:disabled .btn {
 }
 
 .fade-leave-active {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 /*# sourceMappingURL=main.css.map */

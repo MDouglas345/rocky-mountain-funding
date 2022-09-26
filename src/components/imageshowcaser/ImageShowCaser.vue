@@ -46,7 +46,7 @@ export default {
         
     },
    mounted(){
-        this.timer = setInterval(this.incrementIndex, 10000);
+        this.timer = setInterval(this.incrementIndex, 100000);
         this.matchHeight();
    },
    beforeMount(){

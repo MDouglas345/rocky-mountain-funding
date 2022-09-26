@@ -1,12 +1,19 @@
 <template>
-    <transition name="fade">
-        <CustomImg  v-show="index===currentIndex" :imagedata="slide" :key="index"></CustomImg>
-    </transition>
+    <div>
+        
+
+        <TransitionGroup name="fade">
+            <CustomImg  v-show="index===currentIndex" :imagedata="slide" :key="index"></CustomImg>
+            <component  v-show="index===currentIndex && slide.OverlayContent.available===true" :is="slide.OverlayContent.type" :content="slide.OverlayContent.data"></component>
+             
+        </TransitionGroup>
+    </div>
 </template>
 
 
 <script>
 import CustomImg from '../customimg/CustomImg.vue';
+import HomeOverlay from './slideoverlays/HomeOverlay.vue';
     export default{
     name: "ImageShowItem",
     props: {
@@ -20,6 +27,6 @@ import CustomImg from '../customimg/CustomImg.vue';
             type: Number
         }
     },
-    components: { CustomImg }
+    components: { CustomImg, HomeOverlay }
 };
 </script>
