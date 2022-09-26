@@ -12430,6 +12430,10 @@ fieldset:disabled .btn {
   }
 }
 
+#app {
+  overflow: hidden;
+}
+
 .navbar {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -12611,5 +12615,14 @@ fieldset:disabled .btn {
 .fade-leave-active {
   -webkit-transition: all 3s ease;
   transition: all 3s ease;
+}
+
+.home-card {
+  padding: 30px;
+  bottom: 35px;
+}
+
+.home-card-button {
+  font-size: 35px;
 }
 /*# sourceMappingURL=main.css.map */

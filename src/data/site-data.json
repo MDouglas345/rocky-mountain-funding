@@ -248,6 +248,61 @@
                 }
             ]
           }
+        },
+        {
+          "element" : "BaseDivider",
+          "element_details" : {
+              "content" : [
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Premium Business Financing Services",
+                        "text" : "Discover the best financing options regardless of bad credit, high-risk business types, or other financial issues.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Custom Small Business Solutions",
+                        "text" : "Learn how to improve a poor credit rating, reduce the expense of credit card processing, update payroll, HR & employee benefit systems, and create a vibrant web presence.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "View Available Positions",
+                        "text" : "We hire the best, give outstanding training, and set you free. If you're driven to perform, you'll fit right in.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-md-4 col-lg-3 p-0"
+              }
+          }
         }
        
       ]

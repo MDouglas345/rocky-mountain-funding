@@ -12,6 +12,10 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+#app{
+  overflow: hidden;
+}
+
 .navbar {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -198,4 +202,14 @@ background-color: $secondary;
         transition: all 3s ease;
     }
 
+.home-card{
+  padding : 30px;
+  bottom : 35px;
+}
+
+.home-card-button{
+  font-size: 35px;
+  
+  
+}
 
