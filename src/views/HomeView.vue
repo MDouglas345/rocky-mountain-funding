@@ -10,6 +10,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import CustomImg from "@/components/customimg/CustomImg.vue";
 import ImageShowCaser from "@/components/imageshowcaser/ImageShowCaser.vue";
 import BaseDivider from "@/components/dividers/BaseDivider.vue";
+import InfoLayout from "@/components/layouts/InfoLayout.vue";
 // @ is an alias to /src
 
 export default {
@@ -18,7 +19,8 @@ export default {
     HelloWorld,
     CustomImg,
     ImageShowCaser,
-    BaseDivider
+    BaseDivider,
+    InfoLayout
 },
   props : {
     siteData : {

@@ -219,7 +219,7 @@ background-color: $secondary;
 
 @include media-breakpoint-up(lg) {
   .home-card{
-   padding : 15px 30px;
+   padding : 30px 10px;
   bottom : 35px;
 }
 
@@ -238,5 +238,17 @@ background-color: $secondary;
   font-size: 35px;
   
   
+}
+
+.home-info-tiles{
+  padding : 20px 30px;
+}
+
+.home-info-title{
+  padding : 40px 30px;
+}
+
+.home-info-button{
+  padding :25px;
 }
 

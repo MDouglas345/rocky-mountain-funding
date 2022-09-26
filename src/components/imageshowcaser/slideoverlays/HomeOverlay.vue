@@ -1,11 +1,11 @@
 <template>
     <div class = "row position-absolute mx-auto">
-        <div class = "col-md-8 col-12 mx-auto ">
+        <div class ="col-lg-8 col-md-12 col-12 mx-auto">
             <span>
                 <h1 class = "display-4 font-weight-bold text-secondary text-start homeoverlay-text" >{{content.header}}</h1>
             </span>
         </div>
-        <div class ="col-md-8 col-12 mx-auto">
+        <div class ="col-lg-8 col-md-12 col-12 mx-auto">
             <div class = "row">
                 <div class = "col-8 justify-content-start">
                      <span>

@@ -303,6 +303,148 @@
                   "class" : "col-md-4 col-lg-3 p-0"
               }
           }
+        },
+        {
+          "element" : "InfoLayout",
+          "element_details" : {
+              "content" : {
+                  "details" : {
+                      "class" : ""
+                  },
+                  "header" : {
+                      "type" : "TextTitle",
+                      "content" : {
+                          "header" : "Accelerate the growth of your business",
+                          "subheader" : "Small Business Loans. Merchant Cash Advances. Payroll, HR, Employee Benefits. Websites & SEO." 
+                      },
+                      "column_details" : "col-lg-6 col-md-12 col-12 mx-auto home-info-title"
+                  },
+                  "data" : {
+                    "column_details" : {
+                        "class" : "col-md-3 home-info-tiles"
+                    },
+                    "content" : [
+                        {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "Display-1"
+                                      },
+                                      "value" : "100+"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "Display-6 text-primary"
+                                      },
+                                      "value" : "Specialists"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Over 100 funding specialists to keep you going"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "Display-1"
+                                      },
+                                      "value" : "15"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "Display-6 text-primary"
+                                      },
+                                      "value" : "Financing Options"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "15 financing options and small business products"
+                                  }
+                            }
+                        },
+                          {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "Display-1"
+                                      },
+                                      "value" : "$2M"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "Display-6 text-primary"
+                                      },
+                                      "value" : "Funding Up to"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Unsecured funding up to $2,000,000"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "Display-1 text-decoration-underline "
+                                      },
+                                      "value" : "48"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "Display-6 text-primary"
+                                      },
+                                      "value" : "Hours"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Get funding in 48 hours"
+                                  }
+                            }
+                        }
+                    ]
+                  },
+                  "extra" : {
+                      "type" : "ButtonWithImage",
+                      "content" : {
+                            "image" : {
+                                "images" : {
+
+                                    
+                                    "img" : "rml-striped.png",
+                                    "sources" :[]
+                                },
+                                "class" : "image-fit"
+                            },
+                            "button" :{
+                                "details" : {
+                                    "to" : "/solutions",
+                                    "class" : "text-secondary nav-link"
+                                },
+                                "value" : "See full list of services"
+                            },
+                            "cont_details" : {
+                                "class" : "col-8 col-md-3 mx-auto"
+                            }
+                      }
+                  },
+                  "hasExtra" : true
+              }
+          }
         }
        
       ]
