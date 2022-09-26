@@ -12,6 +12,9 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+
+
 #app{
   overflow: hidden;
 }
@@ -203,8 +206,32 @@ background-color: $secondary;
     }
 
 .home-card{
-  padding : 30px;
+  bottom : 0px;
+  padding : 30px 30px;
+}
+
+@include media-breakpoint-up(md){
+  .home-card{
+    padding : 5px 10px;
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+  .home-card{
+   padding : 15px 30px;
   bottom : 35px;
+}
+
+}
+
+
+.home-card > .card-body > .card-text{
+  height : 150px;
+}
+
+.home-card > .card-body > .card-title{
+  height : 50px;
 }
 
 .home-card-button{

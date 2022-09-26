@@ -12618,8 +12618,29 @@ fieldset:disabled .btn {
 }
 
 .home-card {
-  padding: 30px;
-  bottom: 35px;
+  bottom: 0px;
+  padding: 30px 30px;
+}
+
+@media (min-width: 768px) {
+  .home-card {
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-card {
+    padding: 15px 30px;
+    bottom: 35px;
+  }
+}
+
+.home-card > .card-body > .card-text {
+  height: 150px;
+}
+
+.home-card > .card-body > .card-title {
+  height: 50px;
 }
 
 .home-card-button {
