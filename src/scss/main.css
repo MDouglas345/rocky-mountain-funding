@@ -12657,7 +12657,7 @@ fieldset:disabled .btn {
     padding: 5px 10px;
   }
   .article-container {
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0;
   }
   .testimonial-text-overlay {
@@ -12668,7 +12668,7 @@ fieldset:disabled .btn {
     bottom: -15%;
   }
   .wall-divider {
-    height: 100px;
+    height: 75px;
     margin: 10px;
   }
 }
