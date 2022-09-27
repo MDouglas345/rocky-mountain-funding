@@ -4,7 +4,7 @@
 
             <div class="card-body p-0">
                 <div class="card-title">
-                    <h4 class = "Display-4 text-primary">{{content.header}}</h4>
+                    <h4 class = "Display-4 fw-bold text-primary">{{content.header}}</h4>
                 </div>
                 
                 <div class="card-text">

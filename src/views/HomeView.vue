@@ -10,6 +10,7 @@ import CustomImg from "@/components/customimg/CustomImg.vue";
 import ImageShowCaser from "@/components/imageshowcaser/ImageShowCaser.vue";
 import BaseDivider from "@/components/dividers/BaseDivider.vue";
 import InfoLayout from "@/components/layouts/InfoLayout.vue";
+import ArticleLayout from "@/components/layouts/ArticleLayout.vue";
 // @ is an alias to /src
 
 export default {
@@ -19,7 +20,8 @@ export default {
     CustomImg,
     ImageShowCaser,
     BaseDivider,
-    InfoLayout
+    InfoLayout,
+    ArticleLayout
 },
   props : {
     siteData : {

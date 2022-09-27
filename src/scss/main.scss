@@ -214,14 +214,56 @@ background-color: $secondary;
   margin:0;
 }
 
+.article-image-text{
+  position:absolute;
+  padding: 15px;
+  background-color: $secondary;
+  bottom : 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.article-item{
+  padding:0;
+}
+
+.article-container{
+  margin: 0;
+  padding : 0;
+  background-color: $gray-100;
+  
+}
+
+.wall-divider{
+   height : 0;
+  margin:0;
+  background-color: $gray-200;
+}
+
+
 @include media-breakpoint-up(md){
   .home-card{
     padding : 5px 10px;
   }
 
+  .article-container{
+  margin: 0 auto;
+  padding : 0;
+  }
+
+
   .testimonial-text-overlay{
   margin:10px;
-}
+  }
+
+  .article-image-text{
+  position:absolute;
+  bottom : -15%;
+  }
+  .wall-divider{
+  height : 100px;
+  margin:10px;
+  }
 }
 
 

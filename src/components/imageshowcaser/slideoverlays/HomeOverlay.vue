@@ -2,7 +2,7 @@
     <div class = "row position-absolute mx-auto">
         <div class ="col-lg-8 col-md-12 col-12 mx-auto">
             <span>
-                <h1 class = "display-4 font-weight-bold text-secondary text-start homeoverlay-text" >{{content.header}}</h1>
+                <h1 class = "display-4 fw-bolder text-secondary text-start homeoverlay-text" >{{content.header}}</h1>
             </span>
         </div>
         <div class ="col-lg-8 col-md-12 col-12 mx-auto">
@@ -22,11 +22,11 @@
                     <div class = "row">
                         <div class = "col-12">
                             <span>
-                                <h1 class = "display-1 font-weight-bold text-secondary">{{content.stat.val}}</h1>
+                                <h1 class = "display-1 fw-bolder text-secondary">{{content.stat.val}}</h1>
                             </span>
                         </div>
                         <div class = "col-12">
-                            <h6 class = "h6 text-secondary">{{content.stat.label}}</h6>
+                            <h6 class = "h4  fw-bolder text-secondary">{{content.stat.label}}</h6>
                         </div>
                     </div>
                 </div>
