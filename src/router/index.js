@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ApplyNow from "../views/ApplyNow.vue"
+import SolutionTemplate from "../views/SolutionTemplate.vue";
 
 
 const routes = [
@@ -22,6 +23,61 @@ const routes = [
     path: "/applynow",
     name: "applynow",
     component: ApplyNow,
+  },
+   {
+    path: "/merchant-cash-advance",
+    name: "merchant-cash-advance",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/line-of-credit",
+    name: "line-of-credit",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/equipment-financing",
+    name: "equipment-financing",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/mortgage-financing",
+    name: "mortgage-financing",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/term-loan",
+    name: "term-loan",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/factoring",
+    name: "factoring",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/po-financing",
+    name: "po-financing",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/credt-servicing",
+    name: "credt-servicing",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/credt-card-processing",
+    name: "credt-card-processing",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/hr-payroll",
+    name: "hr-payroll",
+    component: SolutionTemplate,
+  },
+  {
+    path: "/seo",
+    name: "seo",
+    component: SolutionTemplate,
   },
 ];
 

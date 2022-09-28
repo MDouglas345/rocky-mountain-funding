@@ -837,8 +837,415 @@
     },
     "applynow" : {
       "content" : []
-           
+   },
+   "merchant-cash-advance" : {
+      "slides" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "h-isc-1.webp"
+                        }
+                      ],
+                      "img" : "h-isc-1-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "HomeOverlay",
+                      "data" : {
+                          "header" : "Quick access to the custom financial solutions you need to manage and grow your business",
+                          "subheader" : "Empower your organization with custom-tailored financial and business solutions; call us today at 646-766-1803 to see your options.",
+                          "note" : "Usually takes 5 minutes or less to access your customized options",
+                          "stat" : {
+                              "val" : "100+",
+                              "label" : "Specialists"
+                          }
+                      }
+                  }
+                  
+                }
+      ],
+      "header" : "Unsecured working capital when your business needs it",
+      "list" : {
+          "data" : [
+            {
+              "name" : "How funding works",
+              "data" : [
+                {
+                  "name" : "Factor rate range: 15% – 49%; the advance is at a fixed rate, not an APR"
+                },
+                {
+                  "name" : "Repayment can be made on either a Daily, Weekly, Bi-Weekly, or Monthly payment"
+                },
+                {
+                  "name" : "Repayment terms rage from 30 days up to 24 months"
+                },
+                {
+                  "name" : "Repayment can be made through ACH Debits or Credit Card Processing Holdbacks"
+                },
+                {
+                  "name" : "Funds can be sent in as quick as one business day"
+                },
+                {
+                  "name" : "Funding amounts range from $2,000 up to $2,000,000"
+                }
+              ]
+            },
+            {
+              "name" : "Rates are based on",
+              "data" : [
+                {
+                  "name" : "Average monthly revenue"
+                },
+                {
+                  "name" : "Time in business"
+                },
+                {
+                  "name" : "Credit profile"
+                },
+                {
+                  "name" : "Overall financial health / profitability"
+                },
+                {
+                  "name" : "Industry"
+                }
+              ]
+            },
+            {
+              "name" : "Required documents",
+              "data" : [
+                {
+                  "name" : "1-page data form (application)"
+                },
+                {
+                  "name" : "3-6 months of business bank statements"
+                },
+                {
+                  "name" : "Driver’s license"
+                },
+                {
+                  "name" : "Voided check"
+                },
+                {
+                  "name" : "Additional stipulations may be requested, such as: proof of ownership, financials (P&L and balance sheet), tax returns, accounts receivable reports"
+                }
+              ]
+            },
+            {
+              "name" : "Ask yourself",
+              "data" : [
+                {
+                  "name" : "Do you have any existing debt on your balance sheet? If yes, what are the balances owed and who are the balances owed to?"
+                },
+                {
+                  "name" : "How do you plan on using the funding?"
+                },
+                {
+                  "name" : "How quickly do you need funding?"
+                }
+              ]
+            },
+            {
+              "name" : "Good to know",
+              "data" : [
+                {
+                  "name" : "Even if your credit score is low or you have negative financial history or the business is less than one year old, there are still funding options with a merchant cash advance"
+                },
+                {
+                  "name" : "We can consolidate existing merchant cash advances to lower payments and increase cash flow"
+                },
+                {
+                  "name" : "This is a fast and convenient process with minimal paperwork and same-day funding available"
+                },
+                {
+                  "name" : "When the balance is 50% paid, your business will be eligible for additional funding"
+                },
+                {
+                  "name" : "Great option of any business that is grossing $10,000 in revenue per month and has been in business for at least 6 months"
+                }
+              ]
+            }
+          ]
+      },
+      "content" : [
+        {
+            "element" : "BaseDivider",
+            "element_details" : {
+                "content" : [
+                  {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "What our clients are saying about our solutions"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Our Financial Solutions and Business Services support our clients as they stay competitive and grow to keep our nation’s economy alive." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-7 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                  }
+                ],
+                "column_details" : {
+                  
+                }
+            }
+        },
+        {
+          "element" : "ImageShowCaser",
+          "element_details" :{
+            "slides" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-hr.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-hr-t.webp"
+                        }
+                        
+                      ],
+                      "img" : "t-isc-hr-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Proud owner of a restaurant in California and was seeking capital to open a second location. My specialist at got me the exact dollar amount I needed to open, including renovation and equipment costs.",
+                          "poi" : "Harry R.",
+                          "poiTitle" : "Resturant Owner"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-jl.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-jl-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-jl-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Professional staff helped guide us through getting our first business loan to acquire extra space and buy more shelving for our retail store. The loan helped us get an immediate return within 4 months as we got more in sales and a few self-checkout registers so there is minimal wait time for the customers.",
+                          "poi" : "Jack L.",
+                          "poiTitle" : "Owns Retail Store"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                         {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-mk.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-mk-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-mk-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "My specialist helped us get the funding we need to get some upgrades done. With low rates we were able to borrow and pay back overtime and noticed how we got more customers as a result. Loan paid for itself in 1-2 years!",
+                          "poi" : "Marjorie K.",
+                          "poiTitle" : "Owns Small Insurance Company"
+                      }
+                  }
+                  
+                }
+            ]
+          }
+        },
+        {
+          "element" : "InfoLayout",
+          "element_details" : {
+              "content" : {
+                  "details" : {
+                      "class" : ""
+                  },
+                  "header" : {
+                      "type" : "TextTitle",
+                      "content" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "Accelerate the growth of your business"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Small Business Loans. Merchant Cash Advances. Payroll, HR, Employee Benefits. Websites & SEO." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-6 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                      
+                  },
+                  "data" : {
+                    "column_details" : {
+                        "class" : "col-md-3 home-info-tiles"
+                    },
+                    "content" : [
+                        {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "100+"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Specialists"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Over 100 funding specialists to keep you going"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "15"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Financing Options"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "15 financing options and small business products"
+                                  }
+                            }
+                        },
+                          {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "$2M"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Funding Up to"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Unsecured funding up to $2,000,000"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4 text-decoration-underline "
+                                      },
+                                      "value" : "48"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Hours"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Get funding in 48 hours"
+                                  }
+                            }
+                        }
+                    ]
+                  },
+                  "extra" : {
+                      "type" : "ButtonWithImage",
+                      "content" : {
+                            "image" : {
+                                "images" : {
 
+                                    
+                                    "img" : "rml-striped.png",
+                                    "sources" :[]
+                                },
+                                "class" : "image-fit"
+                            },
+                            "button" :{
+                                "details" : {
+                                    "to" : "/solutions",
+                                    "class" : "text-secondary nav-link"
+                                },
+                                "value" : "See full list of services"
+                            },
+                            "cont_details" : {
+                                "class" : "col-8 col-md-4 col-lg-3 mx-auto"
+                            }
+                      }
+                  },
+                  "hasExtra" : true
+              }
+          }
+        }
+      ]
    }
     
   },

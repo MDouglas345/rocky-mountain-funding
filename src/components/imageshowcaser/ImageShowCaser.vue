@@ -38,6 +38,7 @@ export default {
     }),
     methods : {
         incrementIndex(){
+            if (this.slides.length == 1){return;}
             this.currentSlide++;
             this.currentSlide = this.currentSlide % (this.slides.length);
         },
