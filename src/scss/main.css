@@ -12703,4 +12703,47 @@ fieldset:disabled .btn {
 .home-info-button {
   padding: 25px;
 }
+
+.OuterStepList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: apples;
+  margin-bottom: 50px;
+}
+
+.OuterStepNum {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #1b9fda;
+}
+
+.OuterStepList > li {
+  margin-bottom: 30px;
+}
+
+.OuterStepNum ::after {
+  content: counter(apples);
+  counter-increment: apples;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  left: 0;
+  top: 0;
+}
+
+.OuterStepNum p {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  color: white;
+}
+
+.OuterStepNum > svg {
+  fill: #1b9fda;
+}
 /*# sourceMappingURL=main.css.map */

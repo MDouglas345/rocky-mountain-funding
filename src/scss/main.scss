@@ -302,5 +302,51 @@ background-color: $secondary;
   padding :25px;
 }
 
+.OuterStepList{ 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: apples;
+  margin-bottom: 50px;
+}
+
+.OuterStepNum{
+  width: fit-content;
+  color : $primary;
+  
+}
+
+.OuterStepList > li{
+margin-bottom: 30px;
+}
+
+
+
+.OuterStepNum ::after{
+  content: counter(apples);
+  counter-increment: apples;
+  font-family: sans-serif;
+
+  font-weight: bold;
+  font-size: 38px;
+  
+  left : 0;
+  top  : 0
+}
+
+.OuterStepNum p{
+  position: absolute;
+  margin: auto;
+  left : 50%;
+  top  : 0;
+  transform: translate(-50%, 0%);
+  color:$secondary;
+}
+
+.OuterStepNum > svg {
+  fill : $primary;
+}
+
+
 
 
