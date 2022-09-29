@@ -12720,7 +12720,7 @@ fieldset:disabled .btn {
 }
 
 .OuterStepList > li {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .OuterStepNum ::after {
@@ -12745,5 +12745,18 @@ fieldset:disabled .btn {
 
 .OuterStepNum > svg {
   fill: #1b9fda;
+}
+
+.OuterStepLabel {
+  padding-bottom: 20px;
+}
+
+.upper-border {
+  border-top: solid #1b9fda;
+  height: 10px;
+}
+
+.st-note2-container {
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ApplyNow from "../views/ApplyNow.vue"
 import SolutionTemplate from "../views/SolutionTemplate.vue";
+import ERC from "../views/ERC.vue"
 
 
 const routes = [
@@ -60,13 +61,13 @@ const routes = [
     component: SolutionTemplate,
   },
   {
-    path: "/credt-servicing",
-    name: "credt-servicing",
+    path: "/credit-servicing",
+    name: "credit-servicing",
     component: SolutionTemplate,
   },
   {
-    path: "/credt-card-processing",
-    name: "credt-card-processing",
+    path: "/credit-card-processing",
+    name: "credit-card-processing",
     component: SolutionTemplate,
   },
   {
@@ -79,6 +80,11 @@ const routes = [
     name: "seo",
     component: SolutionTemplate,
   },
+  {
+    path : "/erc",
+    name : "erc",
+    component : ERC
+  }
 ];
 
 const router = createRouter({

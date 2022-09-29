@@ -317,7 +317,7 @@ background-color: $secondary;
 }
 
 .OuterStepList > li{
-margin-bottom: 30px;
+margin-bottom: 80px;
 }
 
 
@@ -347,6 +347,19 @@ margin-bottom: 30px;
   fill : $primary;
 }
 
+.OuterStepLabel{
+  padding-bottom: 20px;
+}
+
+
+.upper-border{
+  border-top: solid $primary;
+  height: 10px;
+}
+
+.st-note2-container{
+  padding : 15px
+}
 
 
 
