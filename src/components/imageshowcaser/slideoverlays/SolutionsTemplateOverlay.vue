@@ -10,7 +10,7 @@
                 <div class = "col-8 upper-border"></div>
                 <div class = "col-12 st-subheader">
                     <span>
-                        <p class = "h4 fw-bold text-secondary text-start mb-lg-5 mb-sm-1">{{content.subheader}}</p>
+                        <p class = "h4 fw-bold text-secondary text-start mb-lg-5 mb-md-4 mb-sm-3">{{content.subheader}}</p>
                     </span>
                 </div>
                 <div class = "col-12 st-note">
@@ -18,12 +18,13 @@
                 </div>
 
                 <div class="row mb-3 mt-3">
-                    <div class="col-5 col-sm-4 col-lg-2">
-                        <button class="btn btn-primary p-3"><router-link to="/applynow" class="nav-link text-secondary">Apply Now</router-link></button>
+                   
+                        <button class="btn btn-primary p-3 d-flex btn btn-primary mb-3 homeoverlay-text testimonial-text-overlay w-auto"><router-link to="/applynow" class="nav-link text-secondary">Apply Now</router-link></button>
+                    
+                
+                    <div class = "col-12">
+                        <NoteText  v-if="isMobile() === false" :content="content"></NoteText>
                     </div>
-                </div>
-                <div v-if="isMobile() === false" class="row">
-                    <NoteText :content="content"></NoteText>
                 </div>
             </div>
         </div>

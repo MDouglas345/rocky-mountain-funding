@@ -4,7 +4,7 @@
 
 $primary: #1b9fda;
 $secondary: white;
-$enable-caret: false;
+$enable-caret: true;
 $font-family-base: "Palanguin-Thin", sans-serif;
 $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
@@ -34,6 +34,10 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 .nav-link{
   padding-right:0;
   padding-left:0;
+}
+
+nav a.router-link-exact-active {
+    color: $primary;
 }
 
 .call-to-action {

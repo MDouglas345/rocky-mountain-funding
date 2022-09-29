@@ -3,10 +3,10 @@
     <div class ="container-fluid">
         <div class = "row justify-content-center text-start">
             <div class = "col-lg-8 col-md-12">
-                <div v-if="isMobile() ===true" class = "p5">
+                <div v-if="isMobile() ===true" class = "p5 mt-2 ">
                     <NoteText :content="siteData[$route.name].slides[0].OverlayContent.data"></NoteText>
                 </div>
-                <h2 class="display-6 mb-5">{{siteData[$route.name].header}}</h2>
+                <h2 class="display-6 mb-5 mt-5">{{siteData[$route.name].header}}</h2>
                 <StepsWithDetails :content=siteData[$route.name].list></StepsWithDetails>
                 <div class ="row justify-content-center text-center mb-5">
                     <div class="col-6">

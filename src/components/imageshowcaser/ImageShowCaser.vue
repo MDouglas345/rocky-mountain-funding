@@ -2,7 +2,7 @@
 <div class = "container-fluid  m-0 p-0">
     <div class = "row">
           
-            <div id = "imageshowitems-cont" :v-ref="imageshowitems_cont" class = "col-12 p-0 m-0 relative home-carousel-image-container">
+            <div id = "imageshowitems-cont"  class = "col-12 p-0 m-0 relative home-carousel-image-container">
                 
                     <ImageShowItem
                         v-for ="(slideData,index) in slides"
