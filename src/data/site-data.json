@@ -11,10 +11,12 @@
         "menu": [],
         "tags" : {
             "class" : "nav-item col-sm"
+           
           },
         "linktags":{
           "class" : "nav-link ",
           "to" : "/"
+          
         },
         "columns" : 0
       },
@@ -97,17 +99,13 @@
           ]
         ],
         "tags" : {
-          "class" : "nav-item dropdown position-static col-sm"
+          "class" : "nav-item justify-content-center dropdown position-static col-sm",
+          "data-bs-auto-close":true
           
         },
         "linktags":{
           "to" : "/solutions",
-          "class" : "nav-link dropdown-toggle",
-          "href":"#",
-          "id":"navbarDropdown",
-          "role":"button",
-          "data-bs-toggle":"dropdown",
-          "aria-expanded":"false"
+          "class" : "nav-link "
         },
         "columns" : 3
       },

@@ -25,6 +25,7 @@
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
+                    data-bs-auto-close="true"
                   >
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -48,7 +49,7 @@
 </template>
 
 <script>
-import $ from "jquery";
+
 
 import NavbarPhone from "./NavbarPhone.vue";
 import NavigationBarContentDynamic from "./NavigationBarContentDynamic.vue";
@@ -64,5 +65,6 @@ export default {
     NavbarPhone,
     NavigationBarContentDynamic
 },
+
 };
 </script>

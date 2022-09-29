@@ -24,7 +24,7 @@ import ArticleTextSegment from './articlesegments/ArticleTextSegment.vue';
     components: { ArticleImageSegment,ArticleTextSegment },
     methods : {
         isMobile(){
-            console.log(window.innerWidth);
+            
             return window.innerWidth < 768;
         }
     }

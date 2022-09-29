@@ -5,7 +5,8 @@
       class="navbar-nav mb-2 mb-lg-0 my-auto row "
     >
         <div v-for="(item,index) in NavbarContent" v-bind="item.tags">
-            <router-link v-bind:to=item.url v-bind=item.linktags >{{item.name}}</router-link>
+            <router-link @click="collapseNav()" v-bind:to=item.url v-bind=item.linktags >{{item.name}}</router-link>
+            <a v-if="isMobile() && item.menu.length != 0" @click="toggleDropdown()">^</a>
             <NavigationBarDropDownDynamic :NavbarDropdownContent=item></NavigationBarDropDownDynamic>
         </div>
     </div>
@@ -13,6 +14,7 @@
 </template>
 
 <script>
+  import $ from "jquery";
 import NavigationDropDown from "./NavigationDropDown.vue";
 import NavigationBarDropDownDynamic from "./NavigationBarDropDownDynamic.vue";
 
@@ -27,5 +29,16 @@ export default {
     NavigationDropDown,
     NavigationBarDropDownDynamic
 },
+methods : {
+  collapseNav(){
+    $('#navbarSupportedContent').removeClass('show').addClass('hide');
+  },
+  isMobile(){
+    return window.innerWidth < 768;
+  },
+  toggleDropdown(){
+    $('#navbar-drodown-container').toggle();
+  }
+}
 };
 </script>

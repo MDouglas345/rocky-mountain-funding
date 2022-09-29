@@ -12500,6 +12500,10 @@ fieldset:disabled .btn {
   }
 }
 
+.nav-link:hover, .nav-link:focus {
+  color: #1b9fda;
+}
+
 #app {
   overflow: hidden;
 }
@@ -12744,6 +12748,11 @@ nav a.router-link-exact-active {
   .wall-divider {
     height: 75px;
     margin: 10px;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    top: auto;
+    left: 33%;
   }
 }
 
