@@ -12842,4 +12842,10 @@ nav a.router-link-exact-active {
 .st-note2-container {
   padding: 15px;
 }
+
+.dropdown-toggler-caret {
+  text-decoration: none;
+  position: absolute;
+  left: 70%;
+}
 /*# sourceMappingURL=main.css.map */
