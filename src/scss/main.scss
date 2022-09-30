@@ -248,6 +248,10 @@ background-color: $secondary;
 
 
 @include media-breakpoint-up(md){
+  .solution-article-image{
+    height: 250px;
+}
+
   .home-card{
     padding : 5px 10px;
   }
@@ -392,6 +396,10 @@ margin-bottom: 80px;
 
 .bottom-0{
   bottom: 0;
+}
+
+.solution-article-image{
+  height: 450px;
 }
 
 

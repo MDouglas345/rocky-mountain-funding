@@ -12732,6 +12732,9 @@ nav a.router-link-exact-active {
 }
 
 @media (min-width: 768px) {
+  .solution-article-image {
+    height: 250px;
+  }
   .home-card {
     padding: 5px 10px;
   }
@@ -12861,5 +12864,9 @@ nav a.router-link-exact-active {
 
 .bottom-0 {
   bottom: 0;
+}
+
+.solution-article-image {
+  height: 450px;
 }
 /*# sourceMappingURL=main.css.map */
