@@ -246,11 +246,16 @@ background-color: $secondary;
   background-color: $gray-200;
 }
 
+.solution-article-image{
+  height: 600px;
+}
+
 
 @include media-breakpoint-up(md){
   .solution-article-image{
-    height: 250px;
+    height: 100%;
 }
+
 
   .home-card{
     padding : 5px 10px;
@@ -288,7 +293,6 @@ background-color: $secondary;
    padding : 30px 10px;
   bottom : 35px;
 }
-
 
 
 }
@@ -398,9 +402,6 @@ margin-bottom: 80px;
   bottom: 0;
 }
 
-.solution-article-image{
-  height: 450px;
-}
 
 
 

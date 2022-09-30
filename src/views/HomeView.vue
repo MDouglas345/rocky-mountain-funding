@@ -28,5 +28,14 @@ export default {
       type : Object
     }
   },
+  mounted () {
+    window.scrollTo(0, 0);
+    document.title = "Home | " + this.$hostname;
+  }
+  
 };  
+
+
 </script>
+
+

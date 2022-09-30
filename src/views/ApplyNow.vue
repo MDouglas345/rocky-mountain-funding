@@ -7,5 +7,9 @@
 <script>
     export default {
         name  : "ApplyNow",
+        mounted () {
+    window.scrollTo(0, 0);
+    document.title = "Apply Now | " + this.$hostname;
+  }
     };
 </script>

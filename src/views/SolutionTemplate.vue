@@ -49,7 +49,14 @@ methods : {
             console.log(window.innerWidth);
             return window.innerWidth < 568;
         }
-    }
+    },
+    mounted(){
+        window.scrollTo(0, 0);
+    },
+    updated () {
+        window.scrollTo(0, 0);
+        document.title = this.siteData[this.$route.name].slides[0].OverlayContent.data.name + " | " + this.$hostname;
+  }
 
     };
 </script>

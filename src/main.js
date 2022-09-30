@@ -4,6 +4,8 @@ import router from "./router";
 import "@/scss/main.css";
 
 
-createApp(App).use(router).mount("#app");
+const app = createApp(App).use(router);
+app.config.globalProperties.$hostname = "Rocky Mountain Funding Group";
+app.mount('#app');
 
 import "bootstrap/dist/js/bootstrap.js";

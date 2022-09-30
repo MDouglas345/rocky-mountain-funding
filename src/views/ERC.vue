@@ -11,5 +11,9 @@
 <script>
     export default {
         name : "ERC",
+        mounted () {
+        window.scrollTo(0, 0);
+        document.title = "ERC | " + this.$hostname;
+    }
     };
 </script>

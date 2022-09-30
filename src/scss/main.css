@@ -12731,9 +12731,13 @@ nav a.router-link-exact-active {
   background-color: #e9ecef;
 }
 
+.solution-article-image {
+  height: 600px;
+}
+
 @media (min-width: 768px) {
   .solution-article-image {
-    height: 250px;
+    height: 100%;
   }
   .home-card {
     padding: 5px 10px;
@@ -12864,9 +12868,5 @@ nav a.router-link-exact-active {
 
 .bottom-0 {
   bottom: 0;
-}
-
-.solution-article-image {
-  height: 450px;
 }
 /*# sourceMappingURL=main.css.map */

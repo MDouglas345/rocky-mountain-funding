@@ -24,6 +24,10 @@ import BaseDivider from '@/components/dividers/BaseDivider.vue';
             type: Object
         }
     },
-    components: { ImageShowCaser, ArticleLayout, BaseDivider }
+    components: { ImageShowCaser, ArticleLayout, BaseDivider },
+    mounted () {
+    window.scrollTo(0, 0);
+    document.title = "Solutions | " + this.$hostname;
+  }
 };
 </script>
