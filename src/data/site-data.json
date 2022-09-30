@@ -732,7 +732,8 @@
                             "type" : "ArticleTextSegment",
                             "content" : {
                                 "header" : {
-                                    "text" : "Premium Business Financing Solutions"
+                                    "text" : "Premium Business Financing Solutions",
+                                    "class" : "h3 fw-bold text-primary"
                                 },
                                 "body" : {
                                     "html" : "Spring Funding Group understands how a loan at the right time can make a huge difference in the success of your business. To that end, we’ve made it fast and easy to access financing solutions completely designed around your small business needs.<br><br>We actively help small businesses just like yours with:<br><br><ul><li>Merchant Cash Advance</li><li>Line of Credit</li><li>Equipment Financing</li><li>Mortgage Financing</li><li>Term Loands</li><li>Factoring</li><li>P.O Financing</li></ul><br>Spring Funding Group offers merchant cash advances, small business loans, SBA loans, equipment financing, factoring, purchase order financing, lines of credit, and commercial mortgages nationwide.<br><br>"
@@ -772,7 +773,8 @@
                             "type" : "ArticleTextSegment",
                             "content" : {
                                 "header" : {
-                                    "text" : "Custom Small Business Solutions"
+                                    "text" : "Custom Small Business Solutions",
+                                    "class" : "h3 fw-bold text-primary"
                                 },
                                 "body" : {
                                     "html" : "Small businesses face big problems finding real solutions to streamline financial and marketing functions. A poor credit rating, expensive credit card processing, outdated payroll systems, or a nonexistent web presence can all negatively affect your growth.<br><br>Spring Funding Group and its team of dedicated service advisors will help identify, optimize, and deploy the right business solutions to meet your needs. Including:<br><br><ul><li>Credit Servicing (Personal & Business)</li><li>HR and Payroll Services</li><li>Credit Card Processing</li><li>Search Engine Optimization (SEO) and Web Development</li></ul><br>Spring Funding Group offers personal and business credit servicing, credit card processing, payroll, website development, and SEO optimization.<br><br>"
@@ -5157,19 +5159,19 @@
                                      "type" : "TextTitle",
                                         "content" : {
                                             "details" : {
-                                              "class" : "article-image-text col-9"
+                                              "class" : "article-image-text col-9 bottom-0"
                                             },
                                             "header" : {
                                                 "details" : {
                                                     "class" : "h5 text-start fw-bolder"
                                                 },
-                                                "value" : "Completely customized financial solution to meet your business needs"
+                                                "value" : "Unsecured working capital"
                                             },
                                             "subheader" : {
                                                  "details" : {
                                                     "class" : "fs-6 text-start"
                                                 },
-                                                "value" : "Fast and flexible custom financing solutions help you overcome your business challenges."
+                                                "value" : "Even if your credit score is low or your business is less than one year old, there are still MCA options available"
                                             }
                                         }
                                      }
@@ -5179,9 +5181,13 @@
                             "type" : "ArticleTextSegment",
                             "content" : {
                                 "header" : {
-                                    "text" : "Merchant Cash Advance"
+                                    "text" : "Merchant Cash Advance",
+                                    "class" : "h3 fw-bold"
                                 },
-                                "subheader" : "An alternative to traditional bank loans",
+                                "subheader" : {
+                                  "text" : "An alternative to traditional bank loans",
+                                  "class" : "h5 text-primary"
+                                },
                                 "body" : {
                                     "html" : "Applying for a merchant cash advance (MCA) is a fast and convenient process with minimal paperwork and the opportunity for same-day funding availability. Funding amounts range from $2,000 to $2,000,000.<br><br>Rates are based on overall financial health, credit profile, time in business, average monthly revenue, and industry.<br><br>"
                                 },
@@ -5220,14 +5226,19 @@
                             "type" : "ArticleTextSegment",
                             "content" : {
                                 "header" : {
-                                    "text" : "Merchant Cash Advance"
+                                    "text" : "Line of Credit",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Fast approvals available to provide instant access to funds",
+                                  "class" : "h5 text-primary"
                                 },
                                 "body" : {
-                                    "html" : "Applying for a merchant cash advance (MCA) is a fast and convenient process with minimal paperwork and the opportunity for same-day funding availability. Funding amounts range from $2,000 to $2,000,000.<br><br>Rates are based on overall financial health, credit profile, time in business, average monthly revenue, and industry.<br><br>"
+                                    "html" : "A flexible loan to provide small business owners with a defined amount of money that can be accessed as needed and repaid either immediately or over time. Funds are revolving and can be accessed repeatedly without reapplying.<br><br>Great, low rate option for small business owners with a 600+ FICO score and grossing at least $20,000 per month.<br>"
                                 },
                                 "button" : {
                                     "value" : "Find out more",
-                                    "to" : "/merchant-cash-advance"
+                                    "to" : "/line-of-credit"
                                 }
                             }
                         },
@@ -5237,7 +5248,7 @@
                                   "image" : {
                                       "images" :{
                                           "sources" : [],
-                                          "img" : "s-ai-1.webp"
+                                          "img" : "s-ai-2.webp"
                                           
                                       },
                                       "class" : "image-fixed"
@@ -5249,19 +5260,19 @@
                                      "type" : "TextTitle",
                                         "content" : {
                                             "details" : {
-                                              "class" : "article-image-text col-9"
+                                              "class" : "article-image-text col-9 bottom-0"
                                             },
                                             "header" : {
                                                 "details" : {
                                                     "class" : "h5 text-start fw-bolder"
                                                 },
-                                                "value" : "Completely customized financial solution to meet your business needs"
+                                                "value" : "Flexible Alternative"
                                             },
                                             "subheader" : {
                                                  "details" : {
                                                     "class" : "fs-6 text-start"
                                                 },
-                                                "value" : "Fast and flexible custom financing solutions help you overcome your business challenges."
+                                                "value" : "More funds are available to draw from as the principal is paid down."
                                             }
                                         }
                                      }
@@ -5271,6 +5282,748 @@
                             
                     ]   
                 }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-2.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Fair Service"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Pricing is by quotation, based on your unique situation."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Credit Servicing",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Fix your FICO score in a heartbeat",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "An improved credit rating allows merchants and individuals to qualify for better funding, lease/rentals, and insurance rates. To improve your credit, we remove problematic entries from your credit history.<br><br>As your credit improves, costs and expenses decrease, and your operational freedom increases in as little as 3 months. Raising your credit score a mere 20 points can save thousands of dollars over the life of a small business loan.<br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/credit-servicing"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Mortgage financing",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Get your mortgage under control",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "The rates are based on security, the length of the loan, the loan to value ratio, and your credit. If you currently own or are looking to purchase commercial property, also consider how much income the property produces, and if there is any debt on the property.<br><br>The most common way for a property to produce income is by having tenants. A property with both a business and a tenant is referred to as a mixed-use property.<br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/mortgage-financing"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-3.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Put your mind to ease"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "When your mind is free from financial worries, you have the space to focus on the moments in life that actually count."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-4.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Alternatives available"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "If you do not qualify for a term loan, we will pinpoint the reasons why and provide a plan for approval."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Term loan",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Specified monthly repayment schedule",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Businesses with strong credit histories secure term loans at the very best rates available, between 7.9% and 24.99%. The rates vary based on your industry, how you will use the funds, your credit rating, and the overall financial health and profitability of your business.<br><br>Getting funded for a term loan is a more time-consuming process than other types of loans. It usually takes between 2 and 3 weeks for approval."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/term-loan"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Equipment financing",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Putting a lien on equipment to obtain funds",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Equipment financing is a fast and straightforward way to fund up to 100% of the value of the equipment. Use our tax calculator to help identify your savings, first-year depreciation, and deductions.<br><br>The rates are based on the age and condition of the equipment, how easily it could be sold, your credit rating, and your ability to pay back the loan."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/equipment-financing"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-5.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Capital for business equipment"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Customized answers provide precise solutions to manage your exact situation. Questions? Read our equipment financing FAQ’s."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-6.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Factoring explained"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "With factoring, you sell your organization’s outstanding accounts receivables to a third party (the factor) to meet current cash flow obligations."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Factoring",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "An advance collateralized by your business' outstanding invoices",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Your organization has already rendered the services to your customer. You are just waiting to get paid. Factoring means you get paid right away instead of waiting for your customer to pay.<br><br>The loan rates are based on the invoice holder’s (your customer’s) creditworthiness and how long it will be until the invoice is due."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/factoring"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "P.O. Financing",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "An advance collateralized by your business' purchase orders",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "You sell your organization’s purchase order amounts to a third party to obtain the funds necessary to satisfy the order. Rates are based on the security of the order, length of funding, and your credit rating.<br><br>With purchase order financing, you can ONLY use the funds to assist with satisfying the order. But it is NOT a loan, so you are not incurring any debt. Use purchase order financing to support a single transaction and/or grow with your company’s funding requirements."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/po-financing"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-7.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Low barrier alternative"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "The application required to establish a purchase order relationship is much simpler than other types of financing."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-8.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Increase visibility"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Online marketing provides tangible, trackable, quantifiable results, both for eCommerce and non-eCommerce sites. The first step to increasing your sales and your profits."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "SEO",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "An internet presence is required to do business in today's market",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Even if you do not sell your products or services online, potential customers use your website as part of the research process before they buy.<br><br>Search Engine Optimization (SEO) increases the possibility your potential customers find your website using Google, Bing, Yahoo, or other search engines. SEO ensures your website appears in their search results.<br><br>Innovative web marketing solutions drive traffic, convert visitors, and measure effectiveness to deliver real results."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/seo"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Credit Card Processing",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "A staple for today's businesses",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Your customers expect seamless transactions on their credit and debit cards. Now you can process credit and debit card payments with state-of-the-art terminals, including wireless and online capabilities. All with the best rates on the market.<br><br>Lifetime support and training means every business, from entrepreneurs to Fortune 500 sized companies, suffer no interruption in business with new terminal installs."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/credit-card-processing"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-9.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Never pay out of pocket"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Pay only a tiny fraction after your credit or debit card sales are processed."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-10.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Get a Quote today"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Obtain critical services such as Payroll and tax filing, Hiring and H.R. management, Workers compensation, and Health insurance benefits."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "HR/Payroll Services",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Largest small business payroll management service nationwide",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Instantly preview required cases before finalizing payroll to avoid costly surprises. Reduce expenses and increase convenience as you process payroll anytime, anywhere, even on your phone.<br><br>Safe, A.A. rated, outsourced payroll, benefits administration, and H.R. management save precious time, so your staff focus on the activities only they can perform."
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/hr-payroll"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
             }
         }
       ]

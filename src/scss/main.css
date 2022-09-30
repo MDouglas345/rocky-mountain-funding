@@ -12858,4 +12858,8 @@ nav a.router-link-exact-active {
   height: 400px;
   overflow: hidden;
 }
+
+.bottom-0 {
+  bottom: 0;
+}
 /*# sourceMappingURL=main.css.map */
