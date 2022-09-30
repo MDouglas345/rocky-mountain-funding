@@ -3708,7 +3708,7 @@ fieldset:disabled .btn {
   --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-dropdown-link-color: #212529;
   --bs-dropdown-link-hover-color: #1e2125;
-  --bs-dropdown-link-hover-bg: #e9ecef;
+  --bs-dropdown-link-hover-bg: none;
   --bs-dropdown-link-active-color: #fff;
   --bs-dropdown-link-active-bg: #1b9fda;
   --bs-dropdown-link-disabled-color: #adb5bd;
@@ -12526,6 +12526,7 @@ fieldset:disabled .btn {
 
 nav a.router-link-exact-active {
   color: #1b9fda;
+  font-weight: bold;
 }
 
 .call-to-action {
@@ -12847,5 +12848,14 @@ nav a.router-link-exact-active {
   text-decoration: none;
   position: absolute;
   left: 70%;
+}
+
+.lower-overlay {
+  top: 30%;
+}
+
+.solutions-carousel-container {
+  height: 400px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

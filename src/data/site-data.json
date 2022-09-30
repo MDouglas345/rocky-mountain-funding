@@ -735,7 +735,11 @@
                                     "text" : "Premium Business Financing Solutions"
                                 },
                                 "body" : {
-                                    "html" : "Spring Funding Group understands how a loan at the right time can make a huge difference in the success of your business. To that end, we’ve made it fast and easy to access financing solutions completely designed around your small business needs.<br><br>We actively help small businesses just like yours with:<br><br><ul><li>Merchant Cash Advance</li><li>Line of Credit</li><li>Equipment Financing</li><li>Mortgage Financing</li><li>Term Loands</li><li>Factoring</li><li>P.O Financing</li></ul><br>Spring Funding Group offers merchant cash advances, small business loans, SBA loans, equipment financing, factoring, purchase order financing, lines of credit, and commercial mortgages nationwide.<br><br><button class=\"btn btn-primary\"><router-link to=\"/solutions\" class=\"nav-link text-secondary\">Find Out More</router-link></button>"
+                                    "html" : "Spring Funding Group understands how a loan at the right time can make a huge difference in the success of your business. To that end, we’ve made it fast and easy to access financing solutions completely designed around your small business needs.<br><br>We actively help small businesses just like yours with:<br><br><ul><li>Merchant Cash Advance</li><li>Line of Credit</li><li>Equipment Financing</li><li>Mortgage Financing</li><li>Term Loands</li><li>Factoring</li><li>P.O Financing</li></ul><br>Spring Funding Group offers merchant cash advances, small business loans, SBA loans, equipment financing, factoring, purchase order financing, lines of credit, and commercial mortgages nationwide.<br><br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/solutions"
                                 }
                             }
                         }
@@ -771,7 +775,11 @@
                                     "text" : "Custom Small Business Solutions"
                                 },
                                 "body" : {
-                                    "html" : "Small businesses face big problems finding real solutions to streamline financial and marketing functions. A poor credit rating, expensive credit card processing, outdated payroll systems, or a nonexistent web presence can all negatively affect your growth.<br><br>Spring Funding Group and its team of dedicated service advisors will help identify, optimize, and deploy the right business solutions to meet your needs. Including:<br><br><ul><li>Credit Servicing (Personal & Business)</li><li>HR and Payroll Services</li><li>Credit Card Processing</li><li>Search Engine Optimization (SEO) and Web Development</li></ul><br>Spring Funding Group offers personal and business credit servicing, credit card processing, payroll, website development, and SEO optimization.<br><br><button class=\"btn btn-primary\"><router-link to=\"/solutions\" class=\"nav-link text-secondary\">Find Out More</router-link></button>"
+                                    "html" : "Small businesses face big problems finding real solutions to streamline financial and marketing functions. A poor credit rating, expensive credit card processing, outdated payroll systems, or a nonexistent web presence can all negatively affect your growth.<br><br>Spring Funding Group and its team of dedicated service advisors will help identify, optimize, and deploy the right business solutions to meet your needs. Including:<br><br><ul><li>Credit Servicing (Personal & Business)</li><li>HR and Payroll Services</li><li>Credit Card Processing</li><li>Search Engine Optimization (SEO) and Web Development</li></ul><br>Spring Funding Group offers personal and business credit servicing, credit card processing, payroll, website development, and SEO optimization.<br><br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/solutions"
                                 }
                             }
                         },
@@ -5085,6 +5093,185 @@
                   "hasExtra" : true
               }
           }
+        }
+      ]
+   },
+   "solutions" : {
+      "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "s-h.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "s-h-t.webp"
+                        }
+                      ],
+                      "img" : "s-h-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TitleWithSubOverlay",
+                      "data" : {
+                          "header" : "Solutions",
+                          "subheader" : "Contact us today to learn more",
+                          "note" : "Call now to speak to a loan specialist today"
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "intro" : {
+          "header" : "Whatever your financial needs are - we got you covered",
+          "content" : "We provide working business capital based on your business’ projected future sales. Businesses in high-risk industries, with financial problems or bad credit, can be approved without any collateral.<br><br>If you are still not sure what solution is right for your company, that’s what we do. We analyze your financial and organizational situation and determine what financing options are right for you."
+      },
+      "content" : [
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-1.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Completely customized financial solution to meet your business needs"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Fast and flexible custom financing solutions help you overcome your business challenges."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Merchant Cash Advance"
+                                },
+                                "subheader" : "An alternative to traditional bank loans",
+                                "body" : {
+                                    "html" : "Applying for a merchant cash advance (MCA) is a fast and convenient process with minimal paperwork and the opportunity for same-day funding availability. Funding amounts range from $2,000 to $2,000,000.<br><br>Rates are based on overall financial health, credit profile, time in business, average monthly revenue, and industry.<br><br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/merchant-cash-advance"
+                                }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" :{
+              "content" : [
+                {
+
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-12 wall-divider"
+              }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Merchant Cash Advance"
+                                },
+                                "body" : {
+                                    "html" : "Applying for a merchant cash advance (MCA) is a fast and convenient process with minimal paperwork and the opportunity for same-day funding availability. Funding amounts range from $2,000 to $2,000,000.<br><br>Rates are based on overall financial health, credit profile, time in business, average monthly revenue, and industry.<br><br>"
+                                },
+                                "button" : {
+                                    "value" : "Find out more",
+                                    "to" : "/merchant-cash-advance"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "s-ai-1.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Completely customized financial solution to meet your business needs"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Fast and flexible custom financing solutions help you overcome your business challenges."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ]   
+                }
+            }
         }
       ]
    }

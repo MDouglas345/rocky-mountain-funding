@@ -10,7 +10,7 @@
         <div class="col-md-12 outline2 mx-auto">
             <div class="row">
                 <div v-for="(column,index) in NavbarDropdownContent.menu" :class="`col-md-`+(12/NavbarDropdownContent.columns)+ ` col-12`">
-                    <router-link @click="collapseNav()" v-for="(item,index) in column" class="dropdown-item px-0" v-bind="item.tag">{{item.name}}</router-link>
+                    <router-link @click="collapseNav()" v-for="(item,index) in column" class="dropdown-item px-0 nav-link" v-bind="item.tag">{{item.name}}</router-link>
                 </div> 
             </div>
         </div>

@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import ApplyNow from "../views/ApplyNow.vue"
 import SolutionTemplate from "../views/SolutionTemplate.vue";
 import ERC from "../views/ERC.vue"
+import Solutions from "../views/Solutions.vue"
 
 
 const routes = [
@@ -84,6 +85,11 @@ const routes = [
     path : "/erc",
     name : "erc",
     component : ERC
+  },
+  {
+    path : "/solutions",
+    name : "solutions",
+    component : Solutions
   }
 ];
 

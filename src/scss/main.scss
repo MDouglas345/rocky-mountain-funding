@@ -7,6 +7,7 @@ $secondary: white;
 $enable-caret: true;
 $font-family-base: "Palanguin-Thin", sans-serif;
 $headings-font-family: "MerriweatherSans-Bold", sans-serif;
+$dropdown-link-hover-bg: none;
 
 
 
@@ -38,6 +39,7 @@ $headings-font-family: "MerriweatherSans-Bold", sans-serif;
 
 nav a.router-link-exact-active {
     color: $primary;
+    font-weight: bold;
 }
 
 .call-to-action {
@@ -377,6 +379,15 @@ margin-bottom: 80px;
   text-decoration: none;
   position:absolute;
   left : 70%;
+}
+
+.lower-overlay{
+  top:30%;
+}
+
+.solutions-carousel-container{
+  height: 400px;
+  overflow: hidden;
 }
 
 
