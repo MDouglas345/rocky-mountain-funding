@@ -7014,104 +7014,117 @@
             "element_details" : {
               "content" : [
                 {
-                    "type" : "LabelCard",
+                  "type" : "InnerDivider",
                     "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
+                      "content" : [
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Honesty & Integrity",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons display-4"
+                                    },
+                                    "data" : "favorite_border"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Work hard, Play Harder",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "auto_awesome"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Building Long Term",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "insights"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Accountability",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "pan_tool"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Industry Leaders",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "rocket_launch"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Client Focused",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "psychology"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Innovators",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "tips_and_updates"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "LabelCard",
+                            "data" : {
+                                "header" : "Collaboration",
+                                "glyph" : {
+                                    "bind" : {
+                                      "class":"material-icons-outlined display-4"
+                                    },
+                                    "data" : "link"
+                                }
+                            }
                         }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
-                },
-                {
-                    "type" : "LabelCard",
-                    "data" : {
-                        "header" : "Honesty & Integrity",
-                        "glyph" : {
-                            "bind" : {
-                               "class":"material-icons display-4"
-                            },
-                            "data" : "favorite_border"
-                        }
-                    }
+                      ],
+                      "column_details" : {
+                          "class" : "col-md-11 col-lg-2 p-0 pb-1 mx-lg-4"
+                      },
+                      "container_details" : {
+                          "class" : "col-lg-10 col-md-11 mx-auto justify-content-center"
+                      }
+                  }
                 }
               ],
               "column_details" : {
-                  "class" : "col-md-11 col-lg-2 p-0 pb-1"
+                  "class" : "col-12 p-0 pb-1 mt-lg-4"
               }
           }
         },

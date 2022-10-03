@@ -1,11 +1,12 @@
 <template>
-    <div class = "container-fluid bg-light p-0">
-        <div class = "row mx-auto justify-content-around">
-            <div v-bind:="column_details" v-for="(item,index) in content">
+    <div v-bind:="content.container_details">
+        <div class = "row justify-content-center">
+            <div v-bind:="content.column_details" v-for="(item,index) in content.content">
                 <component :is="item.type" :content="item.data"></component>
             </div>
         </div>
     </div>
+    
 </template>
 
 
@@ -13,19 +14,15 @@
     import TextCard from '../card/TextCard.vue';
     import TextTitle from '../text/TextTitle.vue';
     import LabelCard from "../card/LabelCard.vue"
-    import InnerDivider from './InnerDivider.vue';
     export default{
-        name : "BaseDivider",
+        name : "InnerDivider",
         props : {
             content : {
-                type : Object
-            },
-            column_details :{
                 type : Object
             }
         },
         components : {
-            TextCard, TextTitle, LabelCard, InnerDivider
+            TextCard, TextTitle, LabelCard
         }   
     };
 </script>
