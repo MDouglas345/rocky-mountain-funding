@@ -4,6 +4,8 @@ import ApplyNow from "../views/ApplyNow.vue"
 import SolutionTemplate from "../views/SolutionTemplate.vue";
 import ERC from "../views/ERC.vue"
 import Solutions from "../views/Solutions.vue"
+import Testimonials from "../views/TestimonialView.vue"
+import Careers from "../views/CareersView.vue"
 
 
 const routes = [
@@ -90,6 +92,16 @@ const routes = [
     path : "/solutions",
     name : "solutions",
     component : Solutions
+  },
+  {
+    path : "/testimonials",
+    name : "testimonials",
+    component : Testimonials
+  },
+  {
+    path : "/careers",
+    name : "careers",
+    component : Careers
   }
 ];
 

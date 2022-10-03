@@ -6027,7 +6027,1371 @@
             }
         }
       ]
+   },
+   "about" : {
+      "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "a-isc.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "a-isc.webp"
+                        }
+                      ],
+                      "img" : "a-isc-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "AboutOverlay",
+                      "data" : {
+                          "header" : "We are here when you need a boost",
+                          "subheader" : "Thank you for placing your trust in us. We will hold your hand along the way."
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "content" : [
+        {
+          "element" : "BaseDivider",
+          "element_details" : {
+              "content" : [
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Check your options",
+                        "text" : "We can help your business succeed with fast and effective alternative funding for every type of business.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "/solutions",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Contact our specialists",
+                        "text" : "Our financing solutions help keep small businesses going—and growing. Learn more today.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "/contact-us",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Corona Relief Program",
+                        "text" : "A cash infusion to overcome the challenges and rise from the ashes of Corona stronger and more resilient than ever.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "/corona-relief-program",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-md-4 col-lg-3 p-0"
+              }
+          }
+        },
+        {
+          "element" : "BaseDivider",
+          "element_details" : {
+              "content" : [
+                {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "h2 fw-bold"
+                            },
+                             "value" : "Our Mission"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "",
+                             "text" : "Our mission is to provide a broad array of services and solutions for small businesses. We offer merchant cash advances, small business loans, SBA loans, equipment financing, factoring, purchase order financing, and commercial mortgages nationwide.<br><br>We will find you the best option for your business regardless of bad credit, high-risk business types, or financial issues. We also offers credit card processing, personal and business credit servicing, payroll services, and SEO and web development."
+                          },
+                          "details" : {
+                            "class" : "w-100 p-3 text-start"
+                        }
+                      }
+                      
+                  },
+                  {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "h2 fw-bold"
+                            },
+                             "value" : "Our Goal"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "",
+                             "text" : "Our goal is to build a strong working relationship, in order to help small businesses stay competitive and grow by providing revolving financing as needed until the business can improve its credit and qualify for a traditional loan."
+                          },
+                          "details" : {
+                            "class" : "w-100 p-3 text-start"
+                        }
+                      }
+                      
+                  }
+              ],
+              "column_details" : {
+                  "class" : "col-md-11 col-lg-9 p-0"
+              }
+          }
+        },
+        {
+          "element" : "InfoLayout",
+          "element_details" : {
+              "content" : {
+                  "details" : {
+                      "class" : ""
+                  },
+                  "header" : {
+                      "type" : "TextTitle",
+                      "content" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "Accelerate the growth of your business"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Small Business Loans. Merchant Cash Advances. Payroll, HR, Employee Benefits. Websites & SEO." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-6 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                      
+                  },
+                  "data" : {
+                    "column_details" : {
+                        "class" : "col-md-3 home-info-tiles"
+                    },
+                    "content" : [
+                        {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "100+"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Specialists"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Over 100 funding specialists to keep you going"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "15"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Financing Options"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "15 financing options and small business products"
+                                  }
+                            }
+                        },
+                          {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "$2M"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Funding Up to"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Unsecured funding up to $2,000,000"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4 text-decoration-underline "
+                                      },
+                                      "value" : "48"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Hours"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Get funding in 48 hours"
+                                  }
+                            }
+                        }
+                    ]
+                  },
+                  "extra" : {
+                      "type" : "ButtonWithImage",
+                      "content" : {
+                            "image" : {
+                                "images" : {
+
+                                    
+                                    "img" : "rml-striped.png",
+                                    "sources" :[]
+                                },
+                                "class" : "image-fit"
+                            },
+                            "button" :{
+                                "details" : {
+                                    "to" : "/solutions",
+                                    "class" : "text-secondary nav-link"
+                                },
+                                "value" : "See full list of services"
+                            },
+                            "cont_details" : {
+                                "class" : "col-8 col-md-4 col-lg-3 mx-auto"
+                            }
+                      }
+                  },
+                  "hasExtra" : true
+              }
+          }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" : {
+                "content" : [
+                  {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "What our clients are saying about our solutions"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Our Financial Solutions and Business Services support our clients as they stay competitive and grow to keep our nation’s economy alive." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-7 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                  }
+                ],
+                "column_details" : {
+                  
+                }
+            }
+        },
+        {
+          "element" : "ImageShowCaser",
+          "element_details" :{
+            "slides" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-hr.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-hr-t.webp"
+                        }
+                        
+                      ],
+                      "img" : "t-isc-hr-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Proud owner of a restaurant in California and was seeking capital to open a second location. My specialist at got me the exact dollar amount I needed to open, including renovation and equipment costs.",
+                          "poi" : "Harry R.",
+                          "poiTitle" : "Resturant Owner"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-jl.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-jl-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-jl-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Professional staff helped guide us through getting our first business loan to acquire extra space and buy more shelving for our retail store. The loan helped us get an immediate return within 4 months as we got more in sales and a few self-checkout registers so there is minimal wait time for the customers.",
+                          "poi" : "Jack L.",
+                          "poiTitle" : "Owns Retail Store"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                         {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-mk.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-mk-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-mk-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "My specialist helped us get the funding we need to get some upgrades done. With low rates we were able to borrow and pay back overtime and noticed how we got more customers as a result. Loan paid for itself in 1-2 years!",
+                          "poi" : "Marjorie K.",
+                          "poiTitle" : "Owns Small Insurance Company"
+                      }
+                  }
+                  
+                }
+            ]
+          }
+        }
+      ]
+   },
+   "testimonials" : {
+      "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "s-h.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "s-h-t.webp"
+                        }
+                      ],
+                      "img" : "s-h-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TitleWithSubOverlay",
+                      "data" : {
+                          "header" : "Testimonials",
+                          "subheader" : "",
+                          "note" : ""
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "intro" : {
+          "header" : "Don’t take our word for it.",
+          "content" : "Every business needs working capital to thrive and many businesses rely on small business loans and merchant cash advances to operate and grow. We are positioned to help your business succeed and provide alternatives to traditional bank financing to purchase equipment, expand, or just fund day-to-day operations.<br><br>From medical offices to restaurants to contractors and retail stores, our financing solutions help keep small businesses going – and growing. Our customers represent a diverse array of industries; we take special care to build a strong working relationship with each and every one of them.<br><br>Read reviews directly from our customers:"
+      },
+      "content" : [
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-1.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Meeting customer needs"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "These professionals worked with me to figure out what we can afford to pay."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Karen C",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Owns furniture store",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "My loan specialist answered all of my questions and helped me figure out the best options for my needs and budget. I was offered flexibility to help us get the money we needed to grow our privately-owned furniture store in Queens.<br>I recommend dealing with these guys!"
+                                }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }
+                }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Jack L",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Retail store owner",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "We have a retail store and we’re acquiring extra space in the store and also needed to buy more shelves so we can store more things in the store as well.<br><br>The loan helped us get an immediate return within 4 months as we got more in sales and a few self-checkout registers so there is minimal wait time for the customers."
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-2.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Excellent staff"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "Professional staff helped guide us through getting our first loan for our business."
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }   
+                }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-3.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Content marketing"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "We are even busier with our better targeted ads; doing a great job."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Mike G",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Online store owner",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "I was looking for a loan to upgrade our servers and office equipment. We also purchased some new computers and printers to expand our company.<br><br>Within 3 weeks we were able to increase our workload with additional staff and faster computers; we’ve gotten this far thanks to them!"
+                                }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }   
+                }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Harry R",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Restaurant owner",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "Proud owner of a restaurant in California and was seeking capital to open a second location. My specialist got me the exact dollar amount I needed to open, including renovation and equipment costs."
+                                }
+                               
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-4.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Repeat customer"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "My specialist is now working on saving me 18% per month on my credit card terminal; appreciate the help!"
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }   
+                }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : false,
+                    "data" : [
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-5.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Excellent customer service"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "My specialist was very personable; you can tell he really cares about his clients."
+                                            }
+                                        }
+                                     }
+                            }
+                        },
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Brielle S",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Small business owner",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "I worked with a specialist to set up my payroll and payment processing for my small business. The whole process was seamless and saved me a lot of time so that I now can focus on my other business needs.<br><br>They not only helped me establish my business credit, but my personal credit as well. I highly recommend their services."
+                                }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }   
+                }
+            }
+        },
+        {
+            "element" : "ArticleLayout",
+            "element_details" : {
+                "content"  : {
+                  "swapped" : true,
+                    "data" : [
+                        {
+                            "type" : "ArticleTextSegment",
+                            "content" : {
+                                "header" : {
+                                    "text" : "Marjorie K",
+                                    "class" : "h3 fw-bold"
+                                },
+                                "subheader" : {
+                                  "text" : "Small insurance company owner",
+                                  "class" : "h5 text-primary"
+                                },
+                                "body" : {
+                                    "html" : "The specialists I worked with helped us get the funding we needed to get some upgrades done. With low rates we were able to borrow and pay back overtime and noticed how we got more customers as a result.<br><br>The loan paid for itself in 1-2 years!"
+                                }
+                            }
+                        },
+                        {
+                            "type" : "ArticleImageSegment",
+                            "content" : { 
+                                  "image" : {
+                                      "images" :{
+                                          "sources" : [],
+                                          "img" : "t-ai-6.webp"
+                                          
+                                      },
+                                      "class" : "image-fixed solution-article-image"
+                                  },
+                                  "text" : {
+                                     "cont_details" : {
+                                        "class" : "row mx-auto"
+                                     },
+                                     "type" : "TextTitle",
+                                        "content" : {
+                                            "details" : {
+                                              "class" : "article-image-text col-9 bottom-0"
+                                            },
+                                            "header" : {
+                                                "details" : {
+                                                    "class" : "h5 text-start fw-bolder"
+                                                },
+                                                "value" : "Repeat customer"
+                                            },
+                                            "subheader" : {
+                                                 "details" : {
+                                                    "class" : "fs-6 text-start"
+                                                },
+                                                "value" : "My team is now working on saving me 18% per month on my credit card terminal; appreciate the help!"
+                                            }
+                                        }
+                                     }
+                            }
+                        }
+                         
+                            
+                    ],
+                    "details" :{
+                     "class" :  "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5 mx-auto"   
+                    }   
+                }
+            }
+        }
+        
+      ]
+   },
+   "careers" : {
+      "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "c-isc-h.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "c-isc-h-t.webp"
+                        }
+                      ],
+                      "img" : "c-isc-h-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "AboutOverlay",
+                      "data" : {
+                          "header" : "Join our Team",
+                          "subheader" : "We are on a mission to support small business growth by providing financing, innovative business solutions, and guidance."
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "content" : [
+        {
+          "element" : "BaseDivider",
+          "element_details" : {
+              "content" : [
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "View available positions",
+                        "text" : "We hire the best, give outstanding training, and set you free. If you’re driven to perform, you’ll fit right in.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "",
+                              "button" : "trending_flat",
+                              "externallink" : "https://premiummerchantfunding.applytojob.com/apply"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Looking for internships?",
+                        "text" : "Enjoy working in a high energy environment? Thrive when your accomplishments are rewarded? Please join our outstanding team!",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "",
+                              "button" : "trending_flat",
+                              "externallink" : "https://premiummerchantfunding.applytojob.com/apply"
+                          }
+                        }
+                    }
+                },
+                {
+                    "type" : "TextCard",
+                    "data" : {
+                        "header" : "Want to know more?",
+                        "text" : "By joining our team, you will help businesses and merchants solve for their financial needs with key services such as payroll, equipment financing, and Merchant Cash Advances.",
+                        "hasExtra" : true,
+                        "extra" : {
+                          "type" : "CardButton",
+                          "content" : {
+                              "link" : "/about",
+                              "button" : "trending_flat"
+                          }
+                        }
+                    }
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-md-4 col-lg-3 p-0"
+              }
+          }
+        },
+        {
+          "element" : "BaseDivider",
+          "element_details" : {
+              "content" : [
+                {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "h2 fw-bold"
+                            },
+                             "value" : "Our Core Values"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "",
+                             "text" : "There are millions of American small business owners seeking financial success and it’s our privilege to play a part in their growth. Our values are at the core of our day-to-day decision making and company vision."
+                          },
+                          "details" : {
+                            "class" : "w-100 p-3 text-start"
+                        }
+                      }
+                      
+                  }
+              ],
+              "column_details" : {
+                  "class" : "col-md-11 col-lg-9 p-0 pb-3"
+              }
+          }
+        },
+        {
+          "element" : "BaseDivider",
+            "element_details" : {
+              "content" : [
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                },
+                {
+                    "type" : "LabelCard",
+                    "data" : {
+                        "header" : "Honesty & Integrity",
+                        "glyph" : {
+                            "bind" : {
+                               "class":"material-icons display-4"
+                            },
+                            "data" : "favorite_border"
+                        }
+                    }
+                }
+              ],
+              "column_details" : {
+                  "class" : "col-md-11 col-lg-2 p-0 pb-1"
+              }
+          }
+        },
+        {
+          "element" : "InfoLayout",
+          "element_details" : {
+              "content" : {
+                  "details" : {
+                      "class" : ""
+                  },
+                  "header" : {
+                      "type" : "TextTitle",
+                      "content" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "Accelerate the growth of your business"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Small Business Loans. Merchant Cash Advances. Payroll, HR, Employee Benefits. Websites & SEO." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-6 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                      
+                  },
+                  "data" : {
+                    "column_details" : {
+                        "class" : "col-md-3 home-info-tiles"
+                    },
+                    "content" : [
+                        {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "100+"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Specialists"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Over 100 funding specialists to keep you going"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "15"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Financing Options"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "15 financing options and small business products"
+                                  }
+                            }
+                        },
+                          {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4"
+                                      },
+                                      "value" : "$2M"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Funding Up to"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Unsecured funding up to $2,000,000"
+                                  }
+                            }
+                        },
+                         {
+                            "type" : "InfoTitle",
+                            "content" : {
+                                  "header" : {
+                                      "details" : {
+                                          "class" : "display-4 text-decoration-underline "
+                                      },
+                                      "value" : "48"
+                                  },
+                                  "subheader" : {
+                                      "details" : {
+                                            "class" : "h3 fw-bold text-primary"
+                                      },
+                                      "value" : "Hours"
+                                  },
+                                  "note" : {
+                                       "details" : {
+                                          "class" : ""
+                                      },
+                                      "value" : "Get funding in 48 hours"
+                                  }
+                            }
+                        }
+                    ]
+                  },
+                  "extra" : {
+                      "type" : "ButtonWithImage",
+                      "content" : {
+                            "image" : {
+                                "images" : {
+
+                                    
+                                    "img" : "rml-striped.png",
+                                    "sources" :[]
+                                },
+                                "class" : "image-fit"
+                            },
+                            "button" :{
+                                "details" : {
+                                    "to" : "/solutions",
+                                    "class" : "text-secondary nav-link"
+                                },
+                                "value" : "See full list of services"
+                            },
+                            "cont_details" : {
+                                "class" : "col-8 col-md-4 col-lg-3 mx-auto"
+                            }
+                      }
+                  },
+                  "hasExtra" : true
+              }
+          }
+        },
+        {
+            "element" : "BaseDivider",
+            "element_details" : {
+                "content" : [
+                  {
+                      "type" : "TextTitle",
+                      "data" : {
+                          "header" :{
+                            "details" : {
+                              "class" : "display-6 fw-bold text-primary"
+                            },
+                             "value" : "What our clients are saying about our solutions"
+                          },
+                          "subheader" : {
+                              "details" : {
+                                "class" : ""
+                              },
+                             "value" : "Our Financial Solutions and Business Services support our clients as they stay competitive and grow to keep our nation’s economy alive." 
+                          },
+                          "details" : {
+                            "class" : "col-lg-7 col-md-12 col-12 mx-auto home-info-title"
+                        }
+                      }
+                  }
+                ],
+                "column_details" : {
+                  
+                }
+            }
+        },
+        {
+          "element" : "ImageShowCaser",
+          "element_details" :{
+            "slides" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-hr.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-hr-t.webp"
+                        }
+                        
+                      ],
+                      "img" : "t-isc-hr-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Proud owner of a restaurant in California and was seeking capital to open a second location. My specialist at got me the exact dollar amount I needed to open, including renovation and equipment costs.",
+                          "poi" : "Harry R.",
+                          "poiTitle" : "Resturant Owner"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-jl.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-jl-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-jl-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "Professional staff helped guide us through getting our first business loan to acquire extra space and buy more shelving for our retail store. The loan helped us get an immediate return within 4 months as we got more in sales and a few self-checkout registers so there is minimal wait time for the customers.",
+                          "poi" : "Jack L.",
+                          "poiTitle" : "Owns Retail Store"
+                      }
+                  }
+                  
+                },
+                  {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                         {
+                          "min_width" : "(min-width:768px)",
+                          "src" : "t-isc-mk.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "t-isc-mk-t.webp"
+                        }
+                      ],
+                      "img" : "t-isc-mk-m.webp"
+                  },
+                  
+                   "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TestimonialOverlay",
+                      "data" : {
+                          "testimonial" : "My specialist helped us get the funding we need to get some upgrades done. With low rates we were able to borrow and pay back overtime and noticed how we got more customers as a result. Loan paid for itself in 1-2 years!",
+                          "poi" : "Marjorie K.",
+                          "poiTitle" : "Owns Small Insurance Company"
+                      }
+                  }
+                  
+                }
+            ]
+          }
+        }
+      ]
    }
+
     
   },
   "footer": [

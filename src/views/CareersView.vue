@@ -1,7 +1,7 @@
 <template>
-  <ImageShowCaser :slides="siteData[$route.name].slide" :container_details="siteData[$route.name].slide_details"></ImageShowCaser>
-  <component v-for="(item,index) in siteData.about.content" :is="item.element" v-bind="item.element_details"></component>
-
+    <ImageShowCaser :slides="siteData[$route.name].slide" :container_details="siteData[$route.name].slide_details"></ImageShowCaser>
+    <component v-for="(item,index) in siteData.careers.content" :is="item.element" v-bind="item.element_details"></component>
+  
 </template>
 
 <script>
@@ -14,7 +14,7 @@ import ArticleLayout from "@/components/layouts/ArticleLayout.vue";
 // @ is an alias to /src
 
 export default {
-  name: "HomeView",
+  name: "CareersView",
   components: {
     HelloWorld,
     CustomImg,
@@ -30,7 +30,7 @@ export default {
   },
   mounted () {
     window.scrollTo(0, 0);
-    document.title = "About Us | " + this.$hostname;
+    document.title = "Careers | " + this.$hostname;
   }
   
 };  

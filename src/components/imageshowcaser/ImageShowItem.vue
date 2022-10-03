@@ -17,6 +17,7 @@ import HomeOverlay from './slideoverlays/HomeOverlay.vue';
 import TestimonialOverlay from './slideoverlays/TestimonialOverlay.vue';
 import SolutionsTemplateOverlay from './slideoverlays/SolutionsTemplateOverlay.vue';
 import TitleWithSubOverlay from './slideoverlays/TitleWithSubOverlay.vue';
+import AboutOverlay from './slideoverlays/AboutOverlay.vue';
     export default{
     name: "ImageShowItem",
     props: {
@@ -30,6 +31,6 @@ import TitleWithSubOverlay from './slideoverlays/TitleWithSubOverlay.vue';
             type: Number
         }
     },
-    components: { CustomImg, HomeOverlay, TestimonialOverlay, SolutionsTemplateOverlay, TitleWithSubOverlay}
+    components: { CustomImg, HomeOverlay, TestimonialOverlay, SolutionsTemplateOverlay, TitleWithSubOverlay, AboutOverlay}
 };
 </script>
