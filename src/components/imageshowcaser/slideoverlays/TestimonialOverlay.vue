@@ -17,9 +17,11 @@
                             <span>
                                 <h6 class = "text-secondary d-flex mb-5 homeoverlay-text testimonial-text-overlay">{{content.poiTitle}}</h6>
                             </span>
-                            <button type = "button" class = "d-flex btn btn-primary mb-5 homeoverlay-text testimonial-text-overlay">
-                                <router-link to="/testimonials" class="nav-link text-secondary homeoverlay-text">More Testimonials</router-link>
-                            </button>
+                             <router-link to="/testimonials" class="nav-link text-secondary homeoverlay-text">
+                                <button type = "button" class = "d-flex btn btn-primary mb-5 homeoverlay-text testimonial-text-overlay text-secondary padded-btn">
+                                More Testimonials
+                                </button>
+                            </router-link>
                         </div>
                     </div>
                 </div>

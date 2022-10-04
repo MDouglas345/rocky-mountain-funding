@@ -11,9 +11,11 @@
                      <span>
                         <p class = "d-flex text-secondary text-start mb-5 homeoverlay-text">{{content.subheader}}</p>
                     </span>
-                    <button type = "button" class = "d-flex btn btn-primary mb-5 homeoverlay-text">
-                        <router-link to="/ApplyNow" class="nav-link text-secondary homeoverlay-text">View Your Options</router-link>
-                    </button>
+                    <router-link to="/ApplyNow" class="nav-link  homeoverlay-text">
+                        <button type = "button" class = "d-flex btn btn-primary mb-5 text-secondary homeoverlay-text padded-btn">
+                        View Your Options
+                        </button>
+                    </router-link>
                     <span>
                         <h6 class = "text-secondary d-flex mb-5">{{content.note}}</h6>
                     </span>

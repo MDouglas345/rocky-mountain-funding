@@ -18,8 +18,11 @@
                 </div>
 
                 <div class="row mb-3 mt-3">
-                   
-                        <button class="btn btn-primary p-3 d-flex btn btn-primary mb-3 homeoverlay-text testimonial-text-overlay w-auto"><router-link to="/applynow" class="nav-link text-secondary">Apply Now</router-link></button>
+                        <router-link to="/applynow" class="nav-link text-secondary">
+                            <button class="btn btn-primary p-3 d-flex btn btn-primary mb-3 homeoverlay-text testimonial-text-overlay w-auto text-secondary">
+                            Apply Now
+                            </button>
+                        </router-link>
                     
                 
                     <div class = "col-12">

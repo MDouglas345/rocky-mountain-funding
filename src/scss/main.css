@@ -12896,4 +12896,12 @@ nav a.router-link-exact-active {
   display: inline-block;
   vertical-align: middle;
 }
+
+a > button {
+  padding: 15px;
+}
+
+.padded-btn {
+  padding: 15px;
+}
 /*# sourceMappingURL=main.css.map */
