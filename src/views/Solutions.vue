@@ -5,7 +5,11 @@
             <div class = "col-11 col-sm-12 col-lg-8 text-start mt-5 mb-5">
                 <h2 class="h2 fw-bold">{{siteData[$route.name].intro.header}}</h2>
                 <p v-html="siteData[$route.name].intro.content"></p>
-                <button class = "btn btn-primary p-3"><router-link to="/applynow" class="text-secondary nav-link p5">View your options</router-link></button>
+                <router-link to="/applynow" class="text-secondary nav-link p5">
+                    <button class = "btn btn-primary p-3 text-secondary">
+                        View your options
+                    </button>
+                </router-link>
             </div>
         </div>
     </div>
