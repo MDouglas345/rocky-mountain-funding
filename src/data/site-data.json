@@ -180,7 +180,7 @@
                       "type" : "HomeOverlay",
                       "data" : {
                           "header" : "Quick access to the custom financial solutions you need to manage and grow your business",
-                          "subheader" : "Empower your organization with custom-tailored financial and business solutions; call us today at 646-766-1803 to see your options.",
+                          "subheader" : "Empower your organization with custom-tailored financial and business solutions; call us today at 646-933-8322 to see your options.",
                           "note" : "Usually takes 5 minutes or less to access your customized options",
                           "stat" : {
                               "val" : "100+",
@@ -290,7 +290,7 @@
                         "extra" : {
                           "type" : "CardButton",
                           "content" : {
-                              "link" : "",
+                              "link" : "/careers",
                               "button" : "trending_flat"
                           }
                         }
