@@ -135,20 +135,8 @@
           "class" : "nav-link"
         },
         "columns" : 0
-      },
-      {
-        "name": "Credit Portal",
-        "default": false,
-        "menu": [],
-        "tags" : {
-          "class" : "nav-item col-sm"
-        },
-        "linktags":{
-          "to" : "/creditportal",
-          "class" : "nav-link"
-        },
-        "columns" : 0
       }
+      
     ],
     "phone" : {
       "display" : "Call Now: ",
@@ -260,8 +248,8 @@
                         "extra" : {
                           "type" : "CardButton",
                           "content" : {
-                              "link" : "",
-                              "button" : "trending_flat"
+                              "button" : "trending_flat",
+                              "locallink" : "PBFS"
                           }
                         }
                     }
@@ -275,7 +263,7 @@
                         "extra" : {
                           "type" : "CardButton",
                           "content" : {
-                              "link" : "",
+                              "locallink" : "CSBS",
                               "button" : "trending_flat"
                           }
                         }
@@ -715,6 +703,7 @@
                                             "header" : {
                                                 "details" : {
                                                     "class" : "h5 text-start fw-bolder"
+                                                    
                                                 },
                                                 "value" : "Completely customized financial solution to meet your business needs"
                                             },
@@ -733,7 +722,8 @@
                             "content" : {
                                 "header" : {
                                     "text" : "Premium Business Financing Solutions",
-                                    "class" : "h3 fw-bold text-primary"
+                                    "class" : "h3 fw-bold text-primary",
+                                    "id" : "PBFS"
                                 },
                                 "body" : {
                                     "html" : "Spring Funding Group understands how a loan at the right time can make a huge difference in the success of your business. To that end, we’ve made it fast and easy to access financing solutions completely designed around your small business needs.<br><br>We actively help small businesses just like yours with:<br><br><ul><li>Merchant Cash Advance</li><li>Line of Credit</li><li>Equipment Financing</li><li>Mortgage Financing</li><li>Term Loands</li><li>Factoring</li><li>P.O Financing</li></ul><br>Spring Funding Group offers merchant cash advances, small business loans, SBA loans, equipment financing, factoring, purchase order financing, lines of credit, and commercial mortgages nationwide.<br><br>"
@@ -774,7 +764,8 @@
                             "content" : {
                                 "header" : {
                                     "text" : "Custom Small Business Solutions",
-                                    "class" : "h3 fw-bold text-primary"
+                                    "class" : "h3 fw-bold text-primary",
+                                    "id" : "CSBS"
                                 },
                                 "body" : {
                                     "html" : "Small businesses face big problems finding real solutions to streamline financial and marketing functions. A poor credit rating, expensive credit card processing, outdated payroll systems, or a nonexistent web presence can all negatively affect your growth.<br><br>Spring Funding Group and its team of dedicated service advisors will help identify, optimize, and deploy the right business solutions to meet your needs. Including:<br><br><ul><li>Credit Servicing (Personal & Business)</li><li>HR and Payroll Services</li><li>Credit Card Processing</li><li>Search Engine Optimization (SEO) and Web Development</li></ul><br>Spring Funding Group offers personal and business credit servicing, credit card processing, payroll, website development, and SEO optimization.<br><br>"
@@ -6103,7 +6094,7 @@
                         "extra" : {
                           "type" : "CardButton",
                           "content" : {
-                              "link" : "/corona-relief-program",
+                              "link" : "",
                               "button" : "trending_flat"
                           }
                         }
