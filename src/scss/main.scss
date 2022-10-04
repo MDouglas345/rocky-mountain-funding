@@ -251,6 +251,9 @@ background-color: $secondary;
   height: 600px;
 }
 
+.contact-container{
+  height : 600px;
+}
 
 @include media-breakpoint-up(md){
   .solution-article-image{
@@ -286,6 +289,9 @@ background-color: $secondary;
   top: auto;
   left: 33%;
 }
+  .contact-container{
+    height : auto;
+  }
 }
 
 
@@ -357,6 +363,24 @@ margin-bottom: 80px;
   top  : 0
 }
 
+.OuterStepNumtitle ::after{
+  content: counter(apples);
+  counter-increment: apples;
+  font-family: sans-serif;
+  color : black;
+  font-weight: bold;
+  font-size: 30px;
+  
+ 
+}
+
+.OuterStepNumtitle p{  
+  margin: auto;
+
+  color:$secondary;
+}
+
+
 .OuterStepNum p{
   position: absolute;
   margin: auto;
@@ -402,6 +426,15 @@ margin-bottom: 80px;
 .bottom-0{
   bottom: 0;
 }
+
+.contact-item{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+
 
 
 

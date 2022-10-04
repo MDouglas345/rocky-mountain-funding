@@ -12736,6 +12736,10 @@ nav a.router-link-exact-active {
   height: 600px;
 }
 
+.contact-container {
+  height: 600px;
+}
+
 @media (min-width: 768px) {
   .solution-article-image {
     height: 100%;
@@ -12762,6 +12766,9 @@ nav a.router-link-exact-active {
     display: block;
     top: auto;
     left: 33%;
+  }
+  .contact-container {
+    height: auto;
   }
 }
 
@@ -12825,6 +12832,20 @@ nav a.router-link-exact-active {
   top: 0;
 }
 
+.OuterStepNumtitle ::after {
+  content: counter(apples);
+  counter-increment: apples;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.OuterStepNumtitle p {
+  margin: auto;
+  color: white;
+}
+
 .OuterStepNum p {
   position: absolute;
   margin: auto;
@@ -12869,5 +12890,10 @@ nav a.router-link-exact-active {
 
 .bottom-0 {
   bottom: 0;
+}
+
+.contact-item {
+  display: inline-block;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=main.css.map */

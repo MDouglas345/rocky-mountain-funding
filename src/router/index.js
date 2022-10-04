@@ -6,6 +6,8 @@ import ERC from "../views/ERC.vue"
 import Solutions from "../views/Solutions.vue"
 import Testimonials from "../views/TestimonialView.vue"
 import Careers from "../views/CareersView.vue"
+import Terms from "../views/TermsView.vue"
+import Contact from "../views/ContactView.vue"
 
 
 const routes = [
@@ -102,6 +104,16 @@ const routes = [
     path : "/careers",
     name : "careers",
     component : Careers
+  },
+  {
+    path : "/terms",
+    name : "terms",
+    component : Terms
+  },
+  {
+    path : "/contact-us",
+    name : "contact-us",
+    component : Contact
   }
 ];
 

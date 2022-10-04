@@ -13,6 +13,11 @@
                         <p class = "h4 fw-bold text-secondary text-start mb-lg-5 mb-md-4 mb-sm-3">{{content.subheader}}</p>
                     </span>
                 </div>
+                <div v-if="content.note != null" class = "col-12 st-note">
+                    <p class="text-secondary text-start">{{content.note}}</p>
+                </div>
+                
+                
             </div>
         </div>
     </div>

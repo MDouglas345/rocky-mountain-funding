@@ -7403,6 +7403,122 @@
           }
         }
       ]
+   },
+   "terms" : {
+    "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "s-h.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "s-h-t.webp"
+                        }
+                      ],
+                      "img" : "s-h-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "TitleWithSubOverlay",
+                      "data" : {
+                          "header" : "Terms & Conditions",
+                          "subheader" : "",
+                          "note" : ""
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "points" : {
+          "data" : [
+              {
+                "name" : "Terms",
+                "data" : "By accessing this website, you are agreeing to be bound by these website Terms and Conditions of Use, all applicable laws, and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law. All rights are reserved by the website’s controlling company."
+              },
+              {
+                "name" : "Use License",
+                "data" : "<ol><li>Permission is granted to temporarily download one copy of the materials (information or software) on the company’s website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not:<br><ul><li>Modify or copy the materials;</li><li>Use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li><li>Attempt to decompile or reverse engineer any software contained on the controlling company’s website;</li><li>Remove any copyright or other proprietary notations from the materials; or</li><li>Transfer the materials to another person or “mirror” the materials on any other server.</li></ul></li><li>This license shall automatically terminate if you violate any of these restrictions and may be terminated by the controlling company at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.</li></ol>"
+              },
+              {
+                "name" : "Disclaimer",
+                "data" : "The materials on the controlling company’s website are provided “as is.” The controlling company makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.<br><br>Further, the controlling company does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet website or otherwise relating to such materials or on any sites linked to this site."
+              },
+              {
+                "name" : "Limitations",
+                "data" : "In no event shall the controlling company or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on the controlling company’s Internet site, even if the controlling company or an authorized representative of the controlling company has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you."
+              },
+              {
+                "name" : "Revisions and Errata",
+                "data" : "The materials appearing on the controlling company’s website could include technical, typographical, or photographic errors. the controlling company does not warrant that any of the materials on its website are accurate, complete, or current.<br><br>The controlling company may make changes to the materials contained on its website at any time without notice. the controlling company does not, however, make any commitment to update the materials."
+              },
+              {
+                "name" : "Links",
+                "data" : "The controlling company has not reviewed all of the sites linked to its Internet website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by the controlling company of the site. Use of any such linked website is at the user’s own risk."
+              },
+              {
+                "name" : "Site Terms of Use Modifications",
+                "data" : "The controlling company may revise these terms of use for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms and Conditions of Use."
+              },
+              {
+                "name" : "Governing Law",
+                "data" : "Any claim relating to the controlling company’s website shall be governed by the laws of the State of New York without regard to its conflict of law provisions. General Terms and Conditions applicable to Use of a Web Site."
+              },
+              {
+                "name" : "Privacy Policy",
+                "data" : "Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose, and make use of personal information. The following outlines our privacy policy.<br><br><ul><li>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.</li><li>We will collect and use personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.</li><li>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.</li><li>Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.</li><li>We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use, or modification.</li><li>We will make readily available to customers information about our policies and practices relating to the management of personal information.</li></ul><br><br>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained."
+              }
+          ]
+      }
+   },
+   "contact-us" : {
+     "slide" : [
+                {
+                  "class" : "img-fluid image-fixed image-overlay",
+                  "images"   : {
+                      "sources" : [
+                        {
+                          "min_width" : "(min-width:1200px)",
+                          "src" : "cu-isc-h.webp"
+                        },
+                        {
+                          "min_width" : "(min-width:596px)",
+                          "src" : "cu-isc-h-t.webp"
+                        }
+                      ],
+                      "img" : "cu-isc-h-m.webp"
+                  },
+                  
+                  "OverlayContent" : {
+                      "available" : true,
+                      "type" : "AboutOverlay",
+                      "data" : {
+                          "header" : "Contact Us",
+                          "subheader" : "Questions? We can help.",
+                          "note" : "Call us at (646) 933-8322 to speak to a loan specialist today"
+                          
+                      }
+                  }
+                  
+                }
+      ],
+      "slide_details" : "col-12 p-0 m-0 relative solutions-carousel-container",
+      "header" : "Sweet Loans Headquarters",
+      "address" : "1 Dock 72 Way, Brooklyn, NY",
+      "number" : "(646) 933-8322",
+      "email" : "whernandez@pmfus.com",
+      "map" : {
+        "width" : "100%",
+        "height" : "100%",
+        "style" : "border:0",
+        "src" : "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCR1z2YVZwokR46bcTi85gzM&key=AIzaSyCRKK3iq5FF7RbI1n1UEm2hMrizBoT_IaA"
+      }
    }
 
     
@@ -7426,7 +7542,7 @@
             "type_details" : {
               "class" : ""
             },
-            "content" : "Would you like a free, no strings attached consultation?<br><br>Call us today at <a href=\"tel:646-933-8322\">646-933-8322</a>or contact <a href=\"mailto:info@rockymountainfundinggroup.com\">info@rockymountainfundinggroup.com</a><br><br>"
+            "content" : "Would you like a free, no strings attached consultation?<br><br>Call us today at <a href=\"tel:646-933-8322\">646-933-8322</a>or contact <a href=\"mailto:whernandez@pmfus.com\">whernandez@pmfus.com</a><br><br>"
           }
         ]
     },
