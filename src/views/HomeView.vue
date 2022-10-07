@@ -29,11 +29,13 @@ export default {
     }
   },
   mounted () {
-    window.scrollTo(0, 0);
-    document.title = "Home | " + this.$hostname;
     if (Object.keys(this.$route.query).length != 0){
         this.$router.push(`/`+this.$route.query.dest);
+        return;
     }
+    window.scrollTo(0, 0);
+    document.title = "Home | " + this.$hostname;
+    
   }
   
 };  
