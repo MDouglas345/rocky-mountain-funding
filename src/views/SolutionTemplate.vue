@@ -52,6 +52,7 @@ methods : {
     },
     mounted(){
         window.scrollTo(0, 0);
+        document.title = this.siteData[this.$route.name].slides[0].OverlayContent.data.name + " | " + this.$hostname;
     },
     updated () {
         window.scrollTo(0, 0);
